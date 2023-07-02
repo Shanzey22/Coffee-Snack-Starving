@@ -1,11 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,inital-scale=1.0">
-   <title>Home Page</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container
+      {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+        background-position: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+      }  
+    .navbar
+    {
+      height: 12%;
+      display: flex;
+      align-items: center;
+    }
+    .logo{
+      width: 50px;
+      cursor: pointer;
+    }
+    .search-bar{
+      background:#ebd9c6;
+      width: 200px;
+      height: 25px;
+      cursor: pointer;
+      margin-left: 30px;
+      border-radius: 20px;
+      display: flex;
+      text-align: center;
+      padding: 5px;
+      color: #000;
+    }
+    nav{
+      flex: 1;
+      text-align: right;
+      transition: 0.5s;
+    }
+    .icon-setting{
+       height: 22px;
+       margin-left: 40px;
+       cursor: pointer;
+    } 
+    .icon-setting:hover{
+       height: 18px;
+    } 
+    .shopping-cart{
+      height: 35px;
+      margin-left: 20px;
+      cursor: pointer;
+    } 
+    .shopping-cart:hover{
+      height: 30px;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-left: 60px;
+      color: white;
+      cursor: pointer;
+      transition: 1s;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    nav ul li:hover{
+      border-bottom: 1px solid white;
+      transition: 1s;
+    }
+    .row{
+      display: flex;
+      height: 88%;
+      align-items: center;
+    }
+    .col{
+      flex-basis: 50%;
+    }
+    h1{
+      color: #fff;
+      font-size: 100px;
+    }
+    .paragraph-text{
+      margin-top: 8px;
+      color: #bf8040;
+      font-size: 20px;
+      line-height: 15px;
+    }
+    button{
+      width: 180px;
+      color: #000;
+      font-size: 12px;
+      padding: 12px 0;
+      background: white;
+      border: 0;
+      border-radius: 20px;
+      outline: none;
+      margin-top: 30px;
+      cursor: pointer;
+      transition: 0.5s;
+      margin-left: 5px;
+    }
+    
+    button:hover{
+      color: #fff;
+      background: black;
+      transition: 0.5s;
+    }
+    .sub{
+      color:#000;
+    }
+    .card{
+      width: 250px;
+      height: 270px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 20px;
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+      box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.35),
+        0 5px 5px rgba(0,0,0,0.5),
+        0 15px 25px rgba(0,0,0,0.35);
+    }
+    .card1
+    {
+      background-image: url('https://media.istockphoto.com/id/1286332116/photo/refreshing-grapefruit-cocktail-with-ice-and-rosemary.jpg?s=612x612&w=0&k=20&c=xDRaecffj3_TsEATw7--YD-5NVCEkPJUAYaprBBVYLk=');
+    }
+    .card2
+    {
+      background-image: url('https://wallpapercave.com/wp/wp1842834.jpg');
+    }
+    .card3
+    {
+      background-image: url('https://static.toiimg.com/photo/53683545.cms');
+    }
+    .card4
+    {
+      background-image: url('https://c4.wallpaperflare.com/wallpaper/557/818/348/mini-cheese-tomatoes-olives-wallpaper-preview.jpg');
+    }
+    .card:hover{
+      transform: translateY(-10px);
+    }
+    .container-2
+      {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+        background-position: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+      }  
+    .about-card{
+      width: 950px;
+      height: 580px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 20px;
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+      box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.35),
+        0 5px 5px rgba(0,0,0,0.5),
+        0 15px 25px rgba(0,0,0,0.35);
+      margin-left: 160px;
+      background-image: url('https://e0.pxfuel.com/wallpapers/614/356/desktop-wallpaper-wake-up-and-smell-the-coffee-podcast-magazine%C2%AE-coffee-abstract.jpg');
+      margin-top: 80px;
+    }
+    .about-card:hover{
+      transform: translateY(-10px);
+    }
+    .head{
+        font-size: 60px;
+        text-align: center;
+        color: #d2a679;
+    }
+    .des-cription
+    {
+        text-align: right;
+        color:  #bf8040;
+        font-size: 20px;
+        margin-top: 60px;
+        padding-left: 5px;
+        text-rendering: auto;
+    }
+    span{
+        color: #86592d;
+    }
+    .icon-herf{
+        height: 40px;
+        display: inline-block;
+        flex: 1;
+        margin-right: 30px;
+        transition: 0.5s;
+        text-align: right;
+        margin-top: 60px;
+        background:  #ebd9c6;
+        border-radius: 50%;
+        padding: 8px;
+    }
+    .more{
+        align-items: end;
+        flex: 1;
+        text-align: right;
+    }
+    .button-chat{
+        padding: 5px;
+        border-radius: 20px;
+        height: 35px;
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #ebd9c6;
+    }
+    .button-chat:hover{
+        color: white;
+        background: #d2a679;
+        transition: 0.5s;
+    }
+    .container-3{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+        background-position: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    .cafe-name{
+        padding-top: 40px;
+        font-size: 66px;
+        text-align: center;
+        color: #d2a679;
+        margin-bottom: 60px;
+        font-weight: bold;
+    }
+    .reviews{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    .review-card{
+      height: 350px;
+      width: 300px;
+      box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.35),
+        0 5px 5px rgba(0,0,0,0.5),
+        0 15px 25px rgba(0,0,0,0.35);
+      margin-left: 60px;
+      padding: 15px;
+      background-position: center;
+      background-size: cover;
+      border-radius: 5px;
+      background: #ebd9c6;
+      display: inline-block;
+      margin-top: 30px;
+      transition: 0.5s;
+    }
+.review-card:hover{
+      transform: translateY(-10px);
+      transition: 0.5s;
+    }
+h4{
+  font-size: 30px;
+  font-weight: bold;
+  color: #bf8040;
+  text-align: center;
+}
+.feedback{
+  font-size: 20px;
+  margin-top: 30px;
+  color: #86592d;
+}
+.rating{
+  height: 100px;
+  width: 150px;
+  margin-left: 60px;
+}
+.login-btn{
+  height: 35px;
+  width: 150px;
+  background: #d2a679;
+  color:#fff;
+  margin-top: 30px;
+  text-align: center;
+  padding: 3px;
+  margin-left: 550px;
+}
+.login-btn:hover{
+  background: #c68c53;
+}
+</style>
+</head>
 <body>
-      <h1>Home Page</h1>    
+    <div class="container">
+    <div class="navbar">
+      <img src="coffee.png" class="logo">
+      <nav>
+        <ul>
+          <li><a href=""></a>RESERVATIONS</li>
+          <li><a href=""></a>CONTACT</li>
+          <li><a href=""></a>HOME</li>
+          <li><a href=""></a>MENU</li>
+          <li><a href=""></a>OFFERS</li>
+          <img src="settings.png" class="icon-setting">
+          <img src="shopping-cart.png" class="shopping-cart">
+        </ul>
+        <input type="text" placeholder="Search" class="search-bar"/>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col">
+      <h1>Discover the <br> taste of real <br> coffee.</h1>
+      <p class="paragraph-text">We speak the good food language </p>
+      <button type="button">Explore</button>
+      <button type="button">About Us</button>
+      </div>
+      <div class="col">
+      <div class="card card1">
+        <h3>Beverages</h3>
+        <p class="sub">Health & wellness resolutions naturally</p>
+      </div>
+      <div class="card card2">
+        <h3>Desserts</h3>
+        <p class="sub">The tastiest pie money can buy</p>
+      </div>
+      <div class="card card3">
+        <h3>Starters</h3>
+        <p class="sub">Order your favourite food anytime</p>
+      </div>
+      <div class="card card4">
+        <h3>Appetizers</h3>
+        <p class="sub">A food/Drink that stimulates appetite</p>
+      </div>
+      </div>
+    </div>
+</div>
+<div class="container-2">
+    <div class="about-card">
+        <h1 class="head"> { ABOUT US }</h1>
+        <p class="des-cription"> "Come to our coffee shop and enjoy a cup of coffee <br>made
+            from the finest beans in the world. Our baristas<br> are
+            passionate about coffee and will be more than happy <br>to
+            make a drink that suits your taste. we also offer<br> pastries,
+            desserts,beverages,starters,appetizers<br> and other light
+            fare to help you stay energized <br> throughout the day."<br>
+            <br>
+            "We are opening on 11/07/2023<br> welcoming you at our coffee shop we are
+            offerring 40% <br>discount to first 100 customers and we wholeheartedly"<br>
+            <br>
+            <span><b>come lets celebrate together !!</b></span>
+        </p>
+        <div class="more">
+        <img src="contact-us.png" class="icon-herf">
+        <img src="connect.png" class="icon-herf">
+        <img src="help.png" class="icon-herf">
+        </div>
+        <button type="button" class="button-chat">CHAT</button>
+    </div>
+</div>
+<div class="container-3">
+<div class="heading">
+    <h1 class="cafe-name">Welcome to {Coffee-Snack-Starvings}</h1>
+    <p class="reviews"> Customers Reviews </p>
+  <div class="review-card">
+  <h4>Suraj Shende</h4>
+  <p class="feedback"> 
+    "The staff is really what has me come back ✨❤️
+    this location has a great set of people, they are wonderful
+    ans so sweet and always working hard !! It is also very busy 
+    at this location and the employees are just so darn nice and 
+    great !"
+    Thank you !!!!
+  </p>
+  <img src="rating (1).png" class="rating">
+</div> 
+  <div class="review-card">
+  <h4>Anand Shirbhaiyye</h4>
+  <p class="feedback">
+   "I had great time eating delicious food at your
+   restraurant. The waiters and waitressess were committed to 
+   great service and where very friendly.
+   Most importantly, every food and drink on your
+   menu tasted good."
+   Thank you 😊❤️!!
+  </p>
+  <img src="star rating.png" class="rating">
+</div> 
+  <div class="review-card">
+    <h4>Vaibhavi Hole</h4>
+    <p class="feedback"> 
+      "I had great time eating delicious food at your
+      restraurant. The waiters and waitressess were committed to 
+      great service and where very friendly.
+      Most importantly, every food and drink on your
+      menu tasted good."
+      Thank you 🥰✨!!
+    </p>
+    <img src="rating (1).png" class="rating">
+  </div>  
+  <button type="button" class="login-btn"> Login </button>
+</div>
+</div>
 </body>
 </html>
