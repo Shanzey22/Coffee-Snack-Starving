@@ -1,0 +1,28 @@
+
+.q
+{
+background-color: rgb(234, 133, 133);
+}
+.b
+{
+  background-color: rgb(232, 164, 164);
+  border-radius: 20px 20px;
+  border-style: groove ;
+  color: white;
+  text-align: center;}
+  img{
+   
+   background-color: blanchedalmond;
+    display:inline-block;
+    width:498px ;
+    height:400px; }
+    .container
+    {
+      background-color:rgb(217, 67, 67);
+      width:"900px";
+      height:"400px";
+      text-align: center;
+      color:white;
+    }
+
+
