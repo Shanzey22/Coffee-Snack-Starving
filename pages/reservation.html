@@ -26,17 +26,50 @@
     {
         color: white;
         font-size: x-large;
-        text-align: center;
+        padding-left: 420px ;
     }
+    .container
+    {
+        border: 2px solid white;
+        border-radius: 100px;
+    }
+    .btn
+    {
+        width: 500px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+	background:white;
+	border: 0;
+	border-radius: 30px;
+	box-shadow:1px 1px 1px 1px black;
+	text-transform: uppercase;
+	font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .btn:hover
+    {
+        background-color:black ;
+        color: red;
+        border-radius: 10px 5px 10px 5px ;
+    }
+
 </style>
 <body>
    <div class="container">
      <div class="wlc">welcome to our cafe : <B>Coffee Snack Starving </B> </div> 
    <div class="intro"> please fill the following details for table reservation <br/> you are our first priority </div><br/><br/>
-   <div class="name">  <label for="name">Enter your name : </label>
-    <input type="text" id="name" required placeholder="please enter your name" /></div>
+   <div class="name">  <label for="name"><b>Enter your name : </b></label>
+    <input type="text" id="name" required placeholder="please enter your name" size="60:500px" /><br/>
+      <label for="tel"><b>Enter contact no.</b></label>
+      <input type="tel" placeholder="enter 10 digit contact number"/>     
+</div>
     <div class="name"> 
-        <label for="no of people">select number of people </label>
+        <label for="no of people"><b>select number of peoples </b></label>
         <select id="no of people">
             <option>select :</option>
             <option>2</option>
@@ -44,7 +77,19 @@
             <option>4</option>
             <option>5</option>
             <option>6</option>
-            <option>round table</option><br/></div>
+            <option>round table</option></select><br/>
+            </div>
+     <div class="name">
+        
+       <b> Date: </b><input type="date" /><br/>
+       <b> time: </b> <input type="time" />
+        
+     </div>  
+     <div class="name">
+        <label for="suggestion"><b>suggestion/instrouction</b></label>
+        <input type="text" placeholder="enter suggetion or instruction for us" size="50:500px"/><br/><br/>
+        <button class="btn"><b>submit details</b></button>
+     </div>     
             
 
   </div>              
