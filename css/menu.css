@@ -92,4 +92,28 @@ background-size: 100% 100%;
    top:125px;
     color: white;
     margin-left: 1160px;
+  }.maintext{
+    position: relative;
+    top: -280px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .menu:hover{
+    background-color: #262626;
+    border:1px solid white;
+    border-radius: 20px;
+  }
+  .food1:hover{
+    top:10px;
+  }
+  .food2:hover{
+   top: 10px;
+  }
+  .food3:hover{
+    top:410px;
+  }
+  .food4:hover{
+    top:410px;
   }
