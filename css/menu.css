@@ -1,0 +1,9 @@
+.body{
+    margin: 0px;
+}
+.background{
+background-image: linear-gradient(rgba(100,100,100,0.56),rgba(150,150,150,0.56)),url(https://lh3.googleusercontent.com/BsjysYKfjfCg-D9fzccdhwgzOhTcm2wjWmbtZDn4-Axgffe8heGsCUHqP8-8d7u2aHN0GwOD5UFbAmoLXnrEq_mJXJbXUa7FeR4LuH4);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
