@@ -47,3 +47,49 @@ background-size: 100% 100%;
     left:45px;
   top:400px;
   }
+  .menutext{
+    position: relative;
+    font-size: 20px;
+  }
+  .text1{
+    margin-left: 60px;
+    top:-175px;
+    color: white;
+  }.text2{
+    margin-left: 1160px;
+    top:-195px;
+    color: white;
+  }
+.text3{
+   top:180px;
+    color: white;
+    margin-left: 60px;
+  }
+  .text4{
+   top:165px;
+    color: white;
+    margin-left: 1160px;
+  }
+  .subtext{
+    position: relative;
+  }
+  .st1{
+    margin-left: 60px;
+    top:-235px;
+    color: white;
+  }
+.st2{
+    margin-left: 1160px;
+    top:-255px;
+    color: white;
+  }
+  .st3{
+   top:130px;
+    color: white;
+    margin-left: 60px;
+  }
+  .st4{
+   top:125px;
+    color: white;
+    margin-left: 1160px;
+  }
