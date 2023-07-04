@@ -61,3 +61,21 @@ body{
     text-align: center;
     font-size: 20px;
 }
+.text4{
+    text-align: start;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.text5{
+    text-align: start;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.text3{
+    display: block;
+    margin-left: auto;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+}
