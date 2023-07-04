@@ -1,0 +1,16 @@
+body{
+    background-color: #bf4040;
+    margin:0%;
+}
+.style2{
+    height:250px;
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 10px #990000;
+
+}
