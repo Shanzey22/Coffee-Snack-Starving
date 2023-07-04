@@ -21,7 +21,7 @@ background-color: rgb(234, 133, 133);
     height:400px; }
     .box
     {
-      background-color:rgb(217, 67, 67);
+      background-color:brown;
       width:"1350px";
       height: 500px;
       text-align: center;
@@ -31,13 +31,13 @@ background-color: rgb(234, 133, 133);
       margin-bottom:10px;
       margin-left:0px;
       margin-right:1px;
-      padding-top: 50px;
+      padding-top: 40px;
       padding-bottom: 50px;
     }
     .box img{
       height: 40px;
-      background-color:rgb(217, 67, 67);
-      width:30px;
+      background-color:brown;
+      width:40px;
       padding:10px;
       margin:10px;
     }
