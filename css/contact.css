@@ -79,3 +79,11 @@ body{
     width: 40px;
     margin-bottom: 1px;
 }
+.img2{
+    padding-top: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 40px;
+}
