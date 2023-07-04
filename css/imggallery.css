@@ -1,8 +1,12 @@
-
+.q{
+  background-color: rgb(234, 133, 133);
+}
+@media  only screen and (max-width:500px){
+  
 .q
 {
-background-color: rgb(234, 133, 133);
-}
+background-color: rgb(133, 133, 234);
+}}
 .b
 {
   background-color: rgb(232, 164, 164);
@@ -13,12 +17,14 @@ background-color: rgb(234, 133, 133);
   
 }
 
-  img{
+
+  
+ img{
    
    background-color: blanchedalmond;
     display:inline-block;
-    width:498px ;
-    height:400px; }
+     width: 495px;
+     height: 400px;}
     .box
     {
       background-color:brown;
@@ -41,5 +47,6 @@ background-color: rgb(234, 133, 133);
       padding:10px;
       margin:10px;
     }
+
 
 
