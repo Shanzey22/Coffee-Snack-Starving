@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservation table</title>
+    <title>reservation table</title>
 </head>
 <style>
     body{
         background-image: url("https://c.pxhere.com/photos/e3/1b/chair_interior_table_cafe_coffee_shop-1391899.jpg!d") ;
+        background-size: auto ;
     }
     .wlc
     {
@@ -61,8 +62,17 @@
     input{
         background-color: transparent;
     }
-
-    
+    .mbtn
+    {
+        background-color: transparent;
+        color: white;
+        width: 150px;
+        border-radius: 10px;
+    }
+    .mbtn:hover
+    {
+        background-color: rgb(99, 44, 6);
+    }
 </style>
 <body>
    <div class="container">
@@ -95,8 +105,11 @@
         <input type="text" id="suggestion" placeholder="enter suggetion or instruction for us" size="50:500px" /><br/><br/>
         <button class="btn"><b>submit details</b></button>
      </div>     
-            
-
+     <div class="name">
+        <button class="mbtn"><a href="" >menu</a></button>
+        <button class="mbtn"><a href="">about us</a></button>
+        <button class="mbtn"><a href="">contact us</a></button>
+     </div>      
   </div>              
 </body>
 </html>
