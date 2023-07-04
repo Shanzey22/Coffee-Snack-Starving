@@ -20,7 +20,7 @@ body{
     color: black;
     font-size: 60px;
     margin-top: 5px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
 }
 .flex1{
     display:flex;
@@ -42,7 +42,7 @@ body{
 }
 .ex1{
     font-style: oblique;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: initial;
     margin-top: 3px;
     margin-left: 25px;
     font-size: 35px;
@@ -75,6 +75,7 @@ body{
 .text3{
     display: block;
     margin-left: auto;
+    margin-right: auto;
     height: 40px;
     width: 40px;
     margin-bottom: 1px;
@@ -86,4 +87,16 @@ body{
     margin-right: auto;
     height: 40px;
     width: 40px;
+}
+.h1{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: initial;
+    font-style: oblique;
+}
+.img4{
+    height: 130px;
+    width: 130px;
+    margin-left: 200px;
+    margin-bottom: 350px;
 }
