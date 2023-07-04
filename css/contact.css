@@ -14,6 +14,10 @@ body{
     box-shadow: 3px 3px 5px 10px #990000;
 
 }
+.style2:hover{
+    box-shadow: 2px 2px 3px 5px black;
+    border: 10px;
+}
 .style3{
     display: flex;
     justify-content: center;
@@ -31,14 +35,21 @@ body{
     align-items: center;
 }
 .flex{
-    background-color: aliceblue;
+    background-color: bisque;
     height: 270px;
     width: 650px;
     font-size: 50px;
     margin: 20px;
     padding: 10px;
+    border-radius: 10px 15px 10px 15px;
+    box-shadow: 2px 6px 2px 2px black;
+}
+.flex:hover{
+    background-color: aliceblue;
+    height: 260px;
+    width: 620px;
     border-radius: 5px 15px 5px 15px;
-    box-shadow: 1px 3px 4px 4px black;
+    box-shadow: 1px 3px 4px 4px ;
 }
 .ex1{
     font-style: oblique;
@@ -95,8 +106,18 @@ body{
     font-style: oblique;
 }
 .img4{
-    height: 130px;
-    width: 130px;
-    margin-left: 200px;
-    margin-bottom: 350px;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 450px;
+    
+
+}
+.style5{
+    height: 500px;
+    width: 550px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin-left: 7px;
+    box-shadow: 2px 2px 3px 3px white;
+
 }
