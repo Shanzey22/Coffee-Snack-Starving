@@ -7,3 +7,21 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
+.navbar{
+    display: flex;
+   justify-content:space-evenly;
+  }
+  .menu{
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .menu-icon{
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 10px;
+  }
