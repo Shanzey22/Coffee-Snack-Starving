@@ -2,38 +2,42 @@
     background-image:url("https://www.azcentral.com/gcdn/presto/2021/07/09/PPHX/13b5d3fc-bc65-4833-b7b3-abc461fee2c6-Khvi_Coffee__Cafe_-_Looking_In_-_No_People_2.png?crop=1676,943,x321,y0&width=660&height=372&format=pjpg&auto=webp");
     background-repeat: no-repeat;
       background-size: cover;
+      
+
+
 
     }
-    p{
-        text-align:left;
-        color:rgb(255, 252, 252);
-        font-size:30px;
-        margin-left: 12px;
-        margin-right: 150px;
-        }
-   .b{
-  color:red;
-  font-size:30px;
-   }     
-   .c{
-    color:red;
-    font-size:30px;
-  
-   }
-   .box{
-   
-    background-color:rgb(125, 125, 125);
-    width:fit-content;
-    height: fit-content;
-    text-align: left;
-    color:rgb(252, 250, 250);
-font-size: 28px;
-    margin-top: 30px;
-    margin-bottom:30px;
-    margin-left:30pxpx;
-    margin-right:30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:10px;
-    padding-right: 10px;
-  }
+    .b{
+      text-align:center;
+      font-size: 40px;
+      color: rgb(250, 4, 4);
+      margin-left: 10px;
+      
+    }
+    .c{
+      text-align:left;
+      font-size: 40px;
+      color: rgb(250, 4, 4);
+      margin-left: 10px;
+    }
+    
+p{
+  text-align:left;
+  font-size: 30px;
+  color: rgb(252, 246, 246);
+  margin-left: 10px;
+}
+    .box1{
+      
+      color: rgb(251, 254, 253);
+     background-color: rgb(191, 186, 186);
+      height: fit-content;
+      width: fit-content;
+      font-size:30px;
+      margin-left: 10px;
+      padding: 10px;
+      border-color: antiquewhite;
+      border-style: double;
+      border-radius: 20px;
+     }
+
