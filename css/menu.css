@@ -1,0 +1,119 @@
+.body{
+    margin: 0px;
+}
+.background{
+background-image: linear-gradient(rgba(100,100,100,0.56),rgba(150,150,150,0.56)),url(https://lh3.googleusercontent.com/BsjysYKfjfCg-D9fzccdhwgzOhTcm2wjWmbtZDn4-Axgffe8heGsCUHqP8-8d7u2aHN0GwOD5UFbAmoLXnrEq_mJXJbXUa7FeR4LuH4);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+.navbar{
+    display: flex;
+   justify-content:space-evenly;
+  }
+  .menu{
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .menu-icon{
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .menuitem{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #262626;
+    border: 0.5px solid black;
+    position: relative;
+    opacity: 0.6;
+  }
+  .food2{
+    left:750px;
+  }
+  .food3{
+   top:400px;
+   left:-690px;
+   width: 310px;
+  }
+  .food4{
+    left:45px;
+  top:400px;
+  }
+  .menutext{
+    position: relative;
+    font-size: 20px;
+  }
+  .text1{
+    margin-left: 60px;
+    top:-175px;
+    color: white;
+  }.text2{
+    margin-left: 1160px;
+    top:-195px;
+    color: white;
+  }
+.text3{
+   top:180px;
+    color: white;
+    margin-left: 60px;
+  }
+  .text4{
+   top:165px;
+    color: white;
+    margin-left: 1160px;
+  }
+  .subtext{
+    position: relative;
+  }
+  .st1{
+    margin-left: 60px;
+    top:-235px;
+    color: white;
+  }
+.st2{
+    margin-left: 1160px;
+    top:-255px;
+    color: white;
+  }
+  .st3{
+   top:130px;
+    color: white;
+    margin-left: 60px;
+  }
+  .st4{
+   top:125px;
+    color: white;
+    margin-left: 1160px;
+  }.maintext{
+    position: relative;
+    top: -280px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .menu:hover{
+    background-color: #262626;
+    border:1px solid white;
+    border-radius: 20px;
+  }
+  .food1:hover{
+    top:10px;
+  }
+  .food2:hover{
+   top: 10px;
+  }
+  .food3:hover{
+    top:410px;
+  }
+  .food4:hover{
+    top:410px;
+  }
