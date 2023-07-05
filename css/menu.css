@@ -2,7 +2,7 @@
     margin: 0px;
 }
 .background{
-background-image: linear-gradient(rgba(100,100,100,0.56),rgba(150,150,150,0.56)),url(https://lh3.googleusercontent.com/BsjysYKfjfCg-D9fzccdhwgzOhTcm2wjWmbtZDn4-Axgffe8heGsCUHqP8-8d7u2aHN0GwOD5UFbAmoLXnrEq_mJXJbXUa7FeR4LuH4);
+background-image: linear-gradient(rgba(100,100,100,0.56),rgba(150,150,150,0.56)),url(./../img/menu\ background\ image.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
@@ -117,5 +117,25 @@ background-size: 100% 100%;
   .food4:hover{
     top:410px;
   }
-
+  .box
+{
+  width:"1350px";
+  height: 500px;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+  margin-bottom:10px;
+  margin-left:0px;
+  margin-right:1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.box img{
+  height: 50px;
+  width:50px;
+  padding:10px;
+  margin:10px;
+}
  
