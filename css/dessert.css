@@ -1,0 +1,43 @@
+.body{
+    margin: 0px;
+}
+.background{
+    background-image: linear-gradient(rgba(100,100,100,0.56),rgba(150,150,150,0.56)),url(./../img/dessert.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+.menu{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .m1{
+    position: relative;
+    margin-left: 70px;
+    top:-35px;
+  }
+  .m2{
+    position: relative;
+    margin-left: 1000px;
+    top:-80px
+  }
+  .img{
+    height: 90px;
+   
+    border-radius: 10px;
+  }
+  .img1{
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .img2{
+ 
+    position: relative;
+    margin-left: 1184px;
+    top: -145px;
+    
+  }
