@@ -121,3 +121,10 @@ body{
     box-shadow: 2px 2px 3px 3px white;
 
 }
+.style6{
+    height:400px;
+    width:400px;
+    display: block;
+    margin-left: auto;
+    background-color: #bf4040;
+}
