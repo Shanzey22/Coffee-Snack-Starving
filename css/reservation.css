@@ -1,6 +1,9 @@
 body{
     background-image: url("https://c.pxhere.com/photos/e3/1b/chair_interior_table_cafe_coffee_shop-1391899.jpg!d") ;
     background-size: auto ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .wlc
 {
