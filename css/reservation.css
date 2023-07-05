@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://c.pxhere.com/photos/e3/1b/chair_interior_table_cafe_coffee_shop-1391899.jpg!d") ;
+    background-size: auto ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wlc
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 5%;
+}
+.intro
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.name
+{
+    color: white;
+    font-size: x-large;
+    padding-left: 420px ;
+}
+.container
+{
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.btn
+{
+    width: 350px;
+padding: 10px 30px;
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 18px;
+background:white;
+border: 0;
+border-radius: 30px;
+box-shadow:1px 1px 1px 1px black;
+text-transform: uppercase;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+    
+}
+.btn:hover
+{
+    background-color:rgb(54, 27, 27) ;
+    color: white;
+    box-shadow:2px 1px 2px 1px black;
+
+
+}
+input{
+    background-color: transparent;
+}
+.mbtn
+{
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+.mbtn:hover
+{
+    background-color: rgb(63, 28, 4);
+}
+.box
+    {
+      background-color: transparent;
+      height: 500px;
+      text-align: center;
+      color:white;
+      font-size: 25px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
