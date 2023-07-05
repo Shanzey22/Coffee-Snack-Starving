@@ -65,3 +65,17 @@ input{
 {
     background-color: rgb(63, 28, 4);
 }
+.box
+    {
+      background-color: transparent;
+      height: 500px;
+      text-align: center;
+      color:white;
+  font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
