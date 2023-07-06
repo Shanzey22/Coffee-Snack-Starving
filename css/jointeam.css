@@ -27,7 +27,7 @@ body {
    #in:hover{
     border-radius:none;
     font-size: 16px;
-    transition: 1s;
+    transition: 0.5s;
 
    }
    .share{
@@ -42,14 +42,12 @@ body {
     color: white;
     border-radius: 0 15px 0 15px;
     padding: 10px;
-    transition: transform 0.3s ease-in-out;
   }
 
   .button:hover{
     border-radius: 20px;
     font-size: 17px;
-    transition: 1s;
-    transform: scale(1.1);
+    transition: 0.5s;
   }
   .headlines{
     color: white;
@@ -64,7 +62,7 @@ height: 20px;
 background-color: black;
  color:white;
  padding: none;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .navbar:hover {
   transform: scale(1.1);
