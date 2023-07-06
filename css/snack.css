@@ -5,5 +5,17 @@
 .container
 {
    border: 3px black dotted;
+   width: 420px;
+   
+}
+.container1
+{
+   border: 3px black dotted;
+   width: 420px;
+   
+}
+.kac
+{
+   height: 200px;
    width: 400px;
 }
