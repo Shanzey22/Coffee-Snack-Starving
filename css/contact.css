@@ -122,13 +122,16 @@ body{
 
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 43a2f496dbf90c0ee87e27e6efee2b7327dadee7
 .box
     {
-      background-color: transparent;
-      width:1350px;
+      background-color:black;
+      
       height: 500px;
       text-align: center;
       color:white;
