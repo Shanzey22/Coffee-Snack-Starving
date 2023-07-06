@@ -1,0 +1,13 @@
+body{
+    background-image:"img/b4decee0f4c920a6178a018f5711084b.jpg";
+    margin :0%;
+}
+.div1{
+
+  display:flex;
+ margin-left:auto;
+ margin-right: auto;
+ background-color: aquamarine;
+ height: 30px;
+ width: 1500;
+}
