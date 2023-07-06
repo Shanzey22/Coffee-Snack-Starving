@@ -55,18 +55,7 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 input{
-    background-color: transparent;
-}
-.mbtn
-{
-    background-color: transparent;
-    color: white;
-    width: 150px;
-    border-radius: 10px;
-}
-.mbtn:hover
-{
-    background-color: rgb(63, 28, 4);
+    background-color: whitesmoke;
 }
 .box
     {
