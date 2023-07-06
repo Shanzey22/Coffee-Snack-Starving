@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-image:url(./../img/FaQ..png);
+    background-repeat: no-repeat;
+    background-position: center top ;
+    margin-top: 20px;
+
+    }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  .faq-section1 {
+    margin-bottom: 50px;
+    margin-top: 300px;
+    font-size: 23px;
+  }
+  .faq-section {
+    margin-bottom: 50px;
+    font-size: 23px;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .faq h3 {
+    font-weight: bold;
+  }
+  
+  .faq p {
+    margin-top: 5px;
+  }
