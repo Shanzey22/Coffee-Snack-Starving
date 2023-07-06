@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+body{
+    background-color: #f2e4d9;
+    background-size: cover;
+}
+h1{
+    font-size: 70px;
+    color: #c7916b;
+    text-align: center;
+}
+.span-s{
+    font-size: 90px;
+    font-weight: bold;
+    color: #815431;
+}
+.veg-nonveg{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+.span-v{
+    font-size: 55px;
+    font-weight: bold;
+    color: #33cc33;
+}
+.span-n{
+    font-size: 55px;
+    font-weight: bold;
+    color: #ff0000;
+}
+h3{
+    text-align: center;
+    color: #86592d;
+}
+.veg-starters{
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-top: 8px;
+}
+.veg-icon{
+    height: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    color: white;
+    background-color: #33cc33;
+    border-radius: 5px;
+    padding: 3px;
+    width: 120px;
+    margin-top: 5px;
+    text-align: center;
+}
+button:hover{
+    width: 140px;
+    transition: 0.5s;
+}
+.addtocart{
+    height: 20px;
+}
+.customize-btn{
+    color: white;
+    background-color: red;
+}
+.row{
+    display: flex;
+}
+.b{
+    margin-left: 40px;
+}
+.nonveg-starters{
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-top: 8px;
+}
+.nonveg-icon{
+    height: 50px;
+}
+.span-non{
+    font-size: 70px;
+    color: #ff0000;
+}
+.dish-name{
+    color: #815431;
+}
+.dish-img{
+    height: 220px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow:  inset 0 0 10px 10px rgba(0,0,0,0.35),
+    0 5px 5px rgba(0,0,0,0.5),
+    0 15px 25px rgba(0,0,0,0.35);
+    transition: 0.5s;
+}
+.dish-img:hover{
+    height: 200px;
+    width: 400px;
+    cursor: pointer;
+    transition: 0.5s;
+}
