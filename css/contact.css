@@ -46,7 +46,7 @@ body{
 }
 .flex:hover{
     background-color: aliceblue;
-    height: 260px;
+    height: 280px;
     width: 620px;
     border-radius: 5px 15px 5px 15px;
     box-shadow: 1px 3px 4px 4px ;

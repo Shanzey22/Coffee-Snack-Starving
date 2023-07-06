@@ -1,13 +1,26 @@
 body{
-    background-image:"./../imgimg/b4decee0f4c920a6178a018f5711084b.jpg"
+    background-color:#e6ccb3;
     margin: 0%;
 }
-.div1{
-
-  display:flex;
- margin-left:auto;
- margin-right: auto;
- background-color: aquamarine;
- height: 30px;
- width: 1500;
+.text1{color: black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2px;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+.text2{
+  font-size: 30px;
+  color: #ff0000;
+  margin-top: 2px;
+  font-family:italic;
+  text-align: center;
+  margin-bottom: auto;
+}
+.text3{
+  font-size: 20px;
+  color: #ff0066;
+  text-align: center;
+  margin-top: 2px;
+  font-family: fantasy;
 }
