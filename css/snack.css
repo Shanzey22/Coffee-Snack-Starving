@@ -2,3 +2,25 @@
 {
    font-size: 30px;
 }
+.container
+{
+   border: 3px black dotted;
+   width: 420px;
+   padding-left: 20px;
+   
+}
+.container1
+{
+   border: 3px black dotted;
+   width: 420px;
+   padding-left: 20px;
+}
+.kac
+{
+   height: 200px;
+   width: 400px;
+}
+.rt
+{
+   display: flexbox;
+}
