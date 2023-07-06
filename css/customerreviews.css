@@ -40,6 +40,30 @@
         border-style: double;
         border-radius: 20px;
        }
-  
+       .box
+       {
+         background-color:rgb(18, 13, 13);
+         width:"1350px";
+         height: 500px;
+         text-align: center;
+         color:white;
+     font-size: 30px;
+         margin-top: 100px;
+         margin-bottom:10px;
+         margin-left:0px;
+         margin-right:1px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+       }
+       .box p{
+        text-align: center;
+       }
+       .box img{
+         height: 50px;
+         background-color:rgb(18, 13, 13);
+         width:50px;
+         padding:10px;
+         margin:10px;
+       }
   
  
