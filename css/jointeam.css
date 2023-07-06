@@ -18,10 +18,11 @@ body {
     border: solid #000000; 
    border-width: 2px; 
    background-color: transparent;
+ 
 }
   
   input {
-      background-color:transparent;
+      background-color: transparent;
       color:none;
   }
    #in:hover{
