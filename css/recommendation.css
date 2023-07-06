@@ -1,0 +1,11 @@
+body{
+    background-color:#f2e4d9;
+    background-size: 455px 330px; 
+}
+h1{
+    text-align: center;
+    color: rgb(230, 154, 15);
+}
+.rowone{
+    display: flex;
+}
