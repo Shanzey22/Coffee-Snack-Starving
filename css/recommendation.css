@@ -1,11 +1,26 @@
 body{
-    background-color:#f2e4d9;
+    background: linear-gradient(135deg, #ffeecc, #f8f8f8);
     background-size: 455px 330px; 
 }
 h1{
     text-align: center;
-    color: rgb(230, 154, 15);
+    color: rgb(255, 255, 255);
 }
 .rowone{
     display: flex;
+    justify-content: space-between;
+
+
+}
+.imageone{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.check-out
+{
+    color: black;
+    background-color:rgb(92, 10, 10);
+    padding: 5px;
+    border-radius: 3px;
+
 }
