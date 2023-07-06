@@ -26,7 +26,7 @@ body {
       color:none;
   }
    #in:hover{
-    border-radius:none;
+    border: radius 1px;;
     font-size: 16px;
     transition: 0.5s;
 
