@@ -121,20 +121,11 @@ body{
     box-shadow: 2px 2px 3px 3px white;
 
 }
-.style6{
-    height:400px;
-    width:400px;
-    display: block;
-    margin-left: auto;
-    background-color: #bf4040;
-    margin-bottom: 700px;
 
-
-}
-box
+.box
     {
-      background-color: transparent;
-      width:1350px;
+      background-color:black;
+      
       height: 500px;
       text-align: center;
       color:white;
