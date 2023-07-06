@@ -24,3 +24,36 @@ body{
   margin-top: 2px;
   font-family: fantasy;
 }
+.text4{
+  text-decoration:dotted crimson;
+  text-align: left;
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+  color:black;
+  margin-bottom: auto;
+  
+}
+.img1{
+  height: 60px;
+  width: 60px;
+  margin-left: 22px;
+  margin-top: 2px;
+}
+.div1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 400px;
+  width: auto;
+  color: #ff0000;
+  margin-top: 30px;
+}
+.flex1{
+  height: 350px;
+  width: 340px;
+  
+  border-radius: 2px 5px 2px 5px;
+  box-shadow: 4px 8px 5px 5px black;
+}
