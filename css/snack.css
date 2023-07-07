@@ -4,23 +4,44 @@
 }
 .container
 {
-   border: 3px black dotted;
+   border: 3px black solid;
    width: 420px;
    padding-left: 20px;
+   margin-right: auto;
+
+   
    
 }
 .container1
 {
-   border: 3px black dotted;
+   border: 3px black solid;
    width: 420px;
    padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
 }
 .kac
 {
    height: 200px;
    width: 400px;
 }
-.rt
+
+body{
+   background-color: #f2e4d9;
+   background-size: cover;
+}
+.h
 {
-   display: flexbox;
+   text-align: center;
+}
+.rt 
+{
+   list-style: none;
+   display: flex;
+   
+   margin-left: 5px;
+}
+.rs
+{
+   display: flex;
 }
