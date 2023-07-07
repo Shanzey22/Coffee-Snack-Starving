@@ -6,6 +6,23 @@ h1{
     text-align: center;
     color: rgb(0, 0, 0);
 }
+    @keyframes neon {
+    
+            0% { color: #000000; }
+            25% { color: #cc8978; }
+            50% { color: #cabaaf; }
+            75% { color: #fafafa; }
+            100% { color: #fcfcfc; }
+  50% { transform: translateX(100px); }
+  100% { transform: translateX(100px); }
+    }
+      
+      .heading {
+        font-family: 'Arial', sans-serif;
+        font-size: 48px;
+        color: #0a0907;
+        animation: neon 1s ease-in-out infinite alternate;
+}
 .name{
     text-align: center;
     color: black;
@@ -15,12 +32,12 @@ h1{
 .rowone{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
 }
 .imgone:hover{
     border-radius: 10px;
-    height: 210px;
-    width: 260px;
+    height: 207px;
+    width: 257px;
 }
 .imgone{
     box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 35),
