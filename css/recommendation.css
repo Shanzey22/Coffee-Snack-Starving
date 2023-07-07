@@ -9,8 +9,11 @@ h1{
 .rowone{
     display: flex;
     justify-content: space-between;
-
-
+}
+.imgone:hover{
+    border-radius: 10px;
+    height: 210px;
+    width: 260px;
 }
 .imgone{
     box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 35),
@@ -30,9 +33,10 @@ h1{
 .check-out:hover{
     border-radius: 8px;
     color: rgb(20, 181, 202);
+
 }
 .pagetwo{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
 }
