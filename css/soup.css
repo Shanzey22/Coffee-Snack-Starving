@@ -1,0 +1,71 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(./../img/Soup-Cafe.jpg);
+  }
+
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    color: #333;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .soup-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .soup-card img {
+    max-width: 70%;
+  }
+
+  .soup-card h2 {
+    color: #333;
+    margin-top: 0;
+  }
+
+  .soup-card p {
+    color: #666;
+  }
+  .box
+    {
+      background-color:brown;
+      width:"1350px";
+      height: 500px;
+      text-align: center;
+      color:white;
+  font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .box img{
+      height: 50px;
+      background-color:brown;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
