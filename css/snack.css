@@ -63,3 +63,42 @@ body{
 {
    display: flex;
 }
+.container:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+}
+.container1:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+}
+.container2:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+}
