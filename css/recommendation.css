@@ -76,3 +76,26 @@ h1{
     background: linear-gradient(to right, #000, #FFF, #000);
     padding: 10px;
 }
+.box
+{
+  background-color:transparent;
+  width:"1350px";
+  height: 500px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+font-size: 30px;
+  margin-top: 100px;
+  margin-bottom:10px;
+  margin-left:0px;
+  margin-right:1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.box img{
+  height: 40px;
+  background-color:transparent;
+  width:40px;
+  padding:10px;
+  margin:10px;
+}
+
