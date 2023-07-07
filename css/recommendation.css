@@ -68,3 +68,11 @@ h1{
     font-style:italic;
     margin-right: -10px;
 }
+.variety{
+    font-size: larger;
+    font-family: serif sans-serif;
+}
+.headingtwo{
+    background: linear-gradient(to right, #000, #FFF, #000);
+    padding: 10px;
+}
