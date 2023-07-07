@@ -6,9 +6,16 @@ h1{
     text-align: center;
     color: rgb(0, 0, 0);
 }
+.name{
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 .rowone{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 .imgone:hover{
     border-radius: 10px;
@@ -23,8 +30,8 @@ h1{
 
 .check-out
 {
-    color: black;
-    background-color:rgb(92, 10, 10);
+    color: white;
+    background-color:rgb(0, 0, 0);
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
