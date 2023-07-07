@@ -7,3 +7,10 @@
 h1{
     text-align: center;
 }
+.box{
+text-align: center;
+}
+.box img{
+    height: 40px;
+    width: 40px;
+}
