@@ -75,6 +75,7 @@ body{
    padding-right: 20px;
    cursor: pointer;
    background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
 }
 .container1:hover
 {
@@ -87,7 +88,8 @@ body{
    border-radius: 50PX;
    padding-right: 20px;
    cursor: pointer;
-   background-color: #e6c5ac;  
+   background-color: #e6c5ac; 
+   box-shadow: black 10PX 5PX 10PX 5PX; 
 }
 .container2:hover
 {
@@ -101,6 +103,7 @@ body{
    padding-right: 20px;
    cursor: pointer;
    background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
 }
 .box
     {
@@ -122,4 +125,16 @@ body{
       width:50px;
       padding:10px;
       margin:10px;
+    }
+    .T
+    {
+      background-color: #bd977a;
+      border-radius: 10PX 10PX 10PX 10px;
+      font-size: large;
+    }
+    .T:hover
+    {
+      background-color:#daa278;
+      border-radius: 15PX 15PX 15PX 15px;
+      font-size: large;
     }
