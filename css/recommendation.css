@@ -98,4 +98,10 @@ font-size: 30px;
   padding:10px;
   margin:10px;
 }
+.last{
+    background: linear-gradient(to right, #000, #FFF, #000);
+    height: 30px;
+    width: auto;
+
+}
 
