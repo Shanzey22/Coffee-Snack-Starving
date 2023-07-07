@@ -25,6 +25,9 @@ align-items: center;
 .logo{
 width: 50px;
 cursor: pointer;
+background-color: #86592d;
+padding: 3px;
+border-radius: 50%;
 }
 .search-bar{
 background:white;
