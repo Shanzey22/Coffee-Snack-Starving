@@ -69,7 +69,7 @@ transition: 1s;
 }
 nav ul li a{
 text-decoration: none;
-color: #fff;
+color: black;
 font-size: 18px;
 cursor: pointer;
 }
