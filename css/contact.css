@@ -46,7 +46,7 @@ body{
 }
 .flex:hover{
     background-color: aliceblue;
-    height: 260px;
+    height: 280px;
     width: 620px;
     border-radius: 5px 15px 5px 15px;
     box-shadow: 1px 3px 4px 4px ;
@@ -121,13 +121,33 @@ body{
     box-shadow: 2px 2px 3px 3px white;
 
 }
-.style6{
-    height:400px;
-    width:400px;
-    display: block;
-    margin-left: auto;
-    background-color: #bf4040;
-    margin-bottom: 700px;
+.box
+    {
+      background-color:black;
+      
+      height: 500px;
+      text-align: center;
+      color:white;
+      font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+   
+    .box img{
+      height: 50px;
+      background-color:transparent;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
+    
 
 
-}
+
+
+
+
