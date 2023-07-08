@@ -1,9 +1,9 @@
 body {
-    background-color: #f9f9f9;
+    background-color: #f2e4d9;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url(./../img/Soup-Cafe.jpg);
+    background-image:url(./../img/Soup.jpg);
   }
 
   header {
@@ -32,7 +32,7 @@ body {
     max-width: 300px;
     padding: 20px;
     text-align: center;
-    background-color: #DDE6ED;
+    background-color: #c3d7e6;
   }
 
   .soup-card img {
@@ -45,7 +45,7 @@ body {
   }
 
   .soup-card p {
-    color: #666;
+    color: #3e3a3a;
   }
   .box
     {
