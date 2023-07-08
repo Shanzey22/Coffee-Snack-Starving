@@ -1,6 +1,14 @@
 p{
     text-align: center;
 }
-form{
+body{
     text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1384459158/photo/speech-bubble.jpg?b=1&s=612x612&w=0&k=20&c=yWYdMWHmUZYz24FCMgg5IIZ1P249ApQIf_8rE8hLovo=');
+     background-size: cover;
+ }
+.box{
+    background-image:url('https://media.istockphoto.com/id/1398999646/photo/circular-white-chat-bubbles-sitting-on-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=SJAaL3-ErZjnoOJUUcsLEtzwMhe2i_sp7TR0cOdtwJc=') ;
+    width: 800px;
+    height: 600px;
+    display: inline-block;
 }
