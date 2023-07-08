@@ -45,17 +45,25 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 400px;
+  height: 420px;
   width: auto;
   color: #ff0000;
   margin-top: 30px;
 }
+
+
+
 .flex1{
-  height: 350px;
+  height: 390px;
   width: 340px;
   
   border-radius: 2px 5px 2px 5px;
   box-shadow: 4px 8px 5px 5px black;
+}
+.flex1:hover{
+  background-color:#00ff99;
+  border-radius: 1px 1px 3px 3px ;
+  box-shadow: 2px 2px 3px 3px black;
 }
 .text5{
   font-size: 30px;
@@ -66,7 +74,7 @@ body{
 }
 .text6{
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   font-family: italic;
   text-align: start;
   margin-top: 1px;
@@ -78,28 +86,79 @@ body{
   width: 80px;
   padding: 4px;
   background-color: aqua;
+  
 
 }
 .text7{
-  color:#ff0000;
-  font-size: 20px;
+  color:#e60000;
+  font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: 7px;
+  margin-bottom:  5px;
+  
 
 }
 .img2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 125px;
+  height: 127px;
   width: 335px;
+  margin-top: 5px;
 
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 .text8{
   font-size: 25px;
   font-family: italic;
   margin-top: 2px;
-  color: #ff0066;
+  color: #ff0000;
   margin-left: 7px;
+  margin-bottom: 2px;
 }
+.text10{
+  font-size: 25px;
+  height: 30px;
+  width:140px;
+  padding: 4px;
+  background-color: #ffff66;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+  margin-top: 2px;
+  padding: 2px;
+  box-shadow: 3px 2px 3px 3px yellowgreen;
+  border-radius: 5px;
+}
+.text10:hover{
+
+  box-shadow:  1px 2px 2px black;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 1px;
+
+}
+.box
+    {
+      background-color: #cc00cc;
+      
+      height: 500px;
+      text-align: center;
+      color:white;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+   
+    .box img{
+      height: 50px;
+      background-color: transparent;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
