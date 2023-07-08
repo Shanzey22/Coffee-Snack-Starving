@@ -1,15 +1,16 @@
-body{
+*{
   margin: 0%;
   padding: 0%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*linear-gradient(rgba(0,0,0,0.7),
+  rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');*/
 .container
 {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
   background-position: center;
   padding-left: 8%;
   padding-right: 8%;
@@ -24,11 +25,14 @@ align-items: center;
 .logo{
 width: 50px;
 cursor: pointer;
+background-color: #86592d;
+padding: 3px;
+border-radius: 50%;
 }
 .search-bar{
 background:white;
 width: 200px;
-height: 25px;
+height: 20px;
 cursor: pointer;
 margin-left: 30px;
 border-radius: 20px;
@@ -62,14 +66,14 @@ nav ul li{
 list-style: none;
 display: inline-block;
 margin-left: 60px;
-color: white;
+color: black;
 cursor: pointer;
 transition: 1s;
 }
 nav ul li a{
 text-decoration: none;
-color: #fff;
-font-size: 13px;
+color: black;
+font-size: 18px;
 cursor: pointer;
 }
 nav ul li:hover{
@@ -85,7 +89,7 @@ align-items: center;
 flex-basis: 50%;
 }
 h1{
-color: #fff;
+color:#734d26;
 font-size: 100px;
 }
 .paragraph-text{
@@ -96,10 +100,10 @@ line-height: 15px;
 }
 button{
 width: 180px;
-color: #000;
+color: white;
 font-size: 12px;
 padding: 12px 0;
-background: white;
+background:#dfbe9f;
 border: 0;
 border-radius: 20px;
 outline: none;
@@ -110,8 +114,8 @@ margin-left: 5px;
 }
 
 button:hover{
-color: #fff;
-background: black;
+color: black;
+background:#d2a679;
 transition: 0.5s;
 width: 200px;
 }
@@ -158,8 +162,7 @@ transform: translateY(-10px);
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
   background-position: center;
   padding-left: 8%;
   padding-right: 8%;
@@ -232,12 +235,12 @@ height: 30px;
   text-align: center;
   cursor: pointer;
   transition: 0.5s;
-  background: #ebd9c6;
+  background:#d9b18c;
   margin-left: 150px;
   margin-top: 10px;
 }
 .button-chat:hover{
-  color: white;
+  color: black;
   background: #d2a679;
   transition: 0.5s;
   height: 40px;
@@ -247,8 +250,7 @@ height: 30px;
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
   background-position: center;
   padding-left: 8%;
   padding-right: 8%;
@@ -258,14 +260,14 @@ height: 30px;
   padding-top: 40px;
   font-size: 66px;
   text-align: center;
-  color: #d2a679;
+  color: #734d26;
   margin-bottom: 60px;
   font-weight: bold;
 }
 .reviews{
   font-size: 50px;
   font-weight: bold;
-  color: white;
+  color:#d2a679;
   text-align: center;
   padding: 5px;
 }
@@ -321,3 +323,28 @@ color: #fff;
 height: 43px;
 width: 230px;
 }
+.box
+{
+background-color: black;
+height: 400px;
+text-align: center;
+color:white;
+font-size: 30px;
+margin-top: 2px;
+margin-bottom:10px;
+margin-left:0px;
+margin-right:1px;
+padding-top: 2px;
+padding-bottom: 10px;
+}
+ 
+.box img{
+height: 50px;
+background-color:transparent;
+width:50px;
+padding:10px;
+margin:10px;
+}
+
+
+
