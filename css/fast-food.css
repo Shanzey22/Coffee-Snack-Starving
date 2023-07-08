@@ -141,11 +141,11 @@ body{
 }
 .box
     {
-      background-color: #cc00cc;
+      background-color: #ff0000;
       
       height: 500px;
       text-align: center;
-      color:white;
+      color:black;
       font-size: 30px;
       margin-top: 10px;
       margin-bottom:10px;
