@@ -4,23 +4,137 @@
 }
 .container
 {
-   border: 3px black dotted;
+   border: 3px black solid;
    width: 420px;
    padding-left: 20px;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+
+   
    
 }
 .container1
 {
-   border: 3px black dotted;
+   border: 3px black solid;
    width: 420px;
    padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
 }
 .kac
 {
    height: 200px;
    width: 400px;
 }
-.rt
-{
-   display: flexbox;
+
+body{
+   background-color: #f2e4d9;
+   background-size: cover;
 }
+.h
+{
+   text-align: center;
+}
+.rt 
+{
+   list-style: none;
+   display: flex;
+   
+   margin-left: 5px;
+}
+.rs
+{
+   display: flex;
+}
+.container2
+{
+   border: 3px black solid;
+   width: 420px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+}
+.rr
+{
+   display: flex;
+}
+.container:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
+}
+.container1:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac; 
+   box-shadow: black 10PX 5PX 10PX 5PX; 
+}
+.container2:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
+}
+.box
+    {
+      background-color:#d1baa8 ;
+      height: 500px;
+      text-align: center;
+      color: black;
+      font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .box img{
+      height: 50px;
+      background-color:transparent;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
+    .T
+    {
+      background-color: #bd977a;
+      border-radius: 10PX 10PX 10PX 10px;
+      font-size: large;
+    }
+    .T:hover
+    {
+      background-color:#daa278;
+      border-radius: 15PX 15PX 15PX 15px;
+      font-size: large;
+    }
