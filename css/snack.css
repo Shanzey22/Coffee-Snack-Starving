@@ -11,6 +11,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
+   background-color: #f2e4d9;
    
    
 }
@@ -23,6 +24,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
+   background-color: #f2e4d9;
 }
 .kac
 {
@@ -33,10 +35,13 @@
 body{
    background-color: #f2e4d9;
    background-size: cover;
+   background-image:url(./../img/Soup-Cafe.jpg);
 }
 .h
 {
    text-align: center;
+   color:#DDE6ED;
+   backface-visibility: ;
 }
 .rt 
 {
@@ -58,6 +63,7 @@ body{
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
+   background-color: #f2e4d9;
 }
 .rr
 {
@@ -107,10 +113,10 @@ body{
 }
 .box
     {
-      background-color:#d1baa8 ;
+      background-color: black ;
       height: 500px;
       text-align: center;
-      color: black;
+      color: white;
       font-size: 30px;
       margin-top: 100px;
       margin-bottom:10px;
