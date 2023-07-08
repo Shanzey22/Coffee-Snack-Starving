@@ -109,30 +109,25 @@ button:hover{
     cursor: pointer;
     transition: 0.5s;
 }
-.bottom-navbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color: black;
-    color:white;
-    padding: none;}
-    
-    .nav-links 
-    {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    }
-    
-    .nav-links li {
-    margin: 0 10px;
-    }
-    
-    .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    }
-    
+.box
+{
+background-color: black;
+height: 400px;
+text-align: center;
+color:white;
+font-size: 30px;
+margin-top: 2px;
+margin-bottom:10px;
+margin-left:0px;
+margin-right:1px;
+padding-top: 2px;
+padding-bottom: 10px;
+}
+ 
+.box img{
+height: 50px;
+background-color:transparent;
+width:50px;
+padding:10px;
+margin:10px;
+}
