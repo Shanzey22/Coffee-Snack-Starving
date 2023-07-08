@@ -110,12 +110,12 @@
     text-decoration: underline;
 }
 .home-icon{
-   height: 60px;
+   height: 50px;
    margin-left: 800px;
    margin-top: 5px;
    transition: 0.5s;
 }
 .home-icon:hover{
-   height: 50px;
+   height: 45px;
    transition: 0.5s;
 }
