@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ body{
+     background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
+     background-size: cover;
+ }
+ .container{
+     height: 100vh;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     padding-left: 8%;
+     padding-right: 8%;
+     box-sizing: border-box;
+ }  
+ .box{
+     width: 950px;
+     height: 580px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 20px;
+     background-position: center;
+     background-size: cover;
+     box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.35),
+     0 5px 5px rgba(0,0,0,0.5),
+     0 15px 25px rgba(0,0,0,0.35);
+     margin-left: 160px;
+     background-image: url('https://e0.pxfuel.com/wallpapers/614/356/desktop-wallpaper-wake-up-and-smell-the-coffee-podcast-magazine%C2%AE-coffee-abstract.jpg');
+     margin-top: 80px;
+ }
+ .wrapper{
+     width: 420px;
+     background: burlywood;
+     color: white;
+     margin-top: 90px;
+     margin-left: 410px;
+     padding: 30px;
+     border-radius: 10px;
+ }
+ .wrapper h1{
+     font-size: 36px;
+     text-align: center;
+ }
+ .wrapper .input-box{
+     width: 100%;
+     height: 50px;
+     margin: 30px 0;
+ }
+ .input-box input{
+     width: 100%;
+     height: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     border: 2px solid rgba(255,255,255,.2);
+     border-radius: 40px;
+     font-size: 20px;
+     color: white;
+     padding: 3px;
+ }
+ .input-box input::placeholder{
+     color: white;
+ }
+ .wrapper .remember-forgot {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14.5px;
+     margin: -15px 0 15px;
+ }
+ .remember-forgot label input{
+     accent-color: white;
+     margin-right: 3px;
+ }
+ .remember-forgot a{
+     color: white;
+     text-decoration: none;
+ }
+ .remember-forgot a:hover{
+     text-decoration: underline;
+ }
+ .wrapper .btn{
+     width: 100%;
+     height: 45px;
+     background: white;
+     border: none;
+     border-radius: 40px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     cursor: pointer;
+     font-size: 16px;
+     color: #333;
+     font-weight: bold;
+ }
+ .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+.home-icon{
+   height: 50px;
+   margin-left: 800px;
+   margin-top: 5px;
+   transition: 0.5s;
+}
+.home-icon:hover{
+   height: 45px;
+   transition: 0.5s;
+}

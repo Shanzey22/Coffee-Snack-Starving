@@ -5,19 +5,19 @@
 .container
 {
    border: 3px black solid;
-   width: 420px;
+   width: 380px;
    padding-left: 20px;
    margin-right: auto;
+   margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-
    
    
 }
 .container1
 {
    border: 3px black solid;
-   width: 420px;
+   width: 380px;
    padding-left: 20px;
    margin-right: auto;
    margin-top: 50px;
@@ -27,7 +27,7 @@
 .kac
 {
    height: 200px;
-   width: 400px;
+   width: 360px;
 }
 
 body{
@@ -52,7 +52,7 @@ body{
 .container2
 {
    border: 3px black solid;
-   width: 420px;
+   width: 380px;
    padding-left: 20px;
    margin-right: auto;
    margin-top: 50px;
@@ -138,3 +138,23 @@ body{
       border-radius: 15PX 15PX 15PX 15px;
       font-size: large;
     }
+    .rt-1
+    {
+      list-style: none;
+      display: flex;
+      
+      margin-left: 5px;
+    }
+    .rt-2
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    .rt-3
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    
