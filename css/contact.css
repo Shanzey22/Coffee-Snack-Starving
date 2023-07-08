@@ -1,5 +1,5 @@
 body{
-    background-color: #bf4040;
+    background-color: #ffcc00;
     margin:0%;
 }
 .style2{
@@ -11,7 +11,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px 10px #990000;
+    box-shadow: 3px 3px 5px 10px #00ffff;
 
 }
 .style2:hover{
@@ -100,24 +100,33 @@ body{
     width: 40px;
 }
 .h1{
-    font-size: 30px;
-    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
     font-family: initial;
     font-style: oblique;
 }
 .img4{
-    height: 75px;
-    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85px;
+    width: 85px;
     margin-bottom: 450px;
+    margin-bottom: 5px;
+    
     
 
 }
 .style5{
     height: 500px;
-    width: 550px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
     
     border-radius: 5px;
-    margin-left: 7px;
+    margin-top: 5px;
     box-shadow: 2px 2px 3px 3px white;
 
 }
@@ -129,7 +138,7 @@ body{
       text-align: center;
       color:white;
       font-size: 30px;
-      margin-top: 100px;
+      margin-top: 10px;
       margin-bottom:10px;
       margin-left:0px;
       margin-right:1px;
