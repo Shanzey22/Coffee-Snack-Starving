@@ -1,5 +1,5 @@
 body{
-    background-color: #ffcc00;
+    background-color: rgb(234, 133, 133);
     margin:0%;
 }
 .style2{
@@ -132,11 +132,11 @@ body{
 }
 .box
     {
-      background-color:black;
+      background-color:#4dffff;
       
       height: 500px;
       text-align: center;
-      color:white;
+      color:black;
       font-size: 30px;
       margin-top: 10px;
       margin-bottom:10px;
