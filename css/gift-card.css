@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color:black;
     margin: auto;
     
 }
@@ -20,4 +20,16 @@ body{
     font-size: 30px;
     margin-left: 500px;
     margin-top: 16px;
+}
+.img1{
+    height:100px;
+    width: 140px;
+    margin-left: 700px;
+    margin-top: 2px;
+}
+.text2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 1px;
 }
