@@ -132,11 +132,11 @@ body{
 }
 .box
     {
-      background-color:#ff1a1a;
+      background-color:black;
       
       height: 500px;
       text-align: center;
-      color:black;
+      color:white;
       font-size: 30px;
       margin-top: 10px;
       margin-bottom:10px;
