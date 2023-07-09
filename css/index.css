@@ -29,18 +29,6 @@ background-color: #86592d;
 padding: 3px;
 border-radius: 50%;
 }
-.search-bar{
-background:white;
-width: 200px;
-height: 20px;
-cursor: pointer;
-margin-left: 30px;
-border-radius: 20px;
-display: flex;
-text-align: center;
-padding: 5px;
-color: #000;
-}
 nav{
 flex: 1;
 text-align: right;
