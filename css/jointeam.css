@@ -1,7 +1,5 @@
 body {
-    background-image: url("https://img.freepik.com/premium-photo/smiling-barista-with-arms-crossed-front-customers_13339-154795.jpg?size=626&ext=jpg&ga=GA1.2.886160919.1686263152&semt=ais");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(218, 193, 162);
   }
   .form{
     margin-left:100px;
@@ -62,8 +60,8 @@ width: 100%;
 height: 20px;
 background-color: black;
  color:white;
- padding: none;
-  transition: transform 0.5s ease-in-out;
+ padding: 7px;
+transition: transform 0.5s ease-in-out;
 }
 .navbar:hover {
   transform: scale(1.1);
@@ -87,3 +85,12 @@ margin: 0 10px;
 color: #fff;
 text-decoration: none;
 }
+form {
+  display: flex;
+  flex-direction:column;
+}
+
+label {
+  margin-right: 10px;
+}
+
