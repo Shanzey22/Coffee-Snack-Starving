@@ -15,9 +15,9 @@ h1{
         
 }
 .name{
-    text-align: center;
+    text-align: justify;
     color: black;
-    font-size: 26px;
+    font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .rowone{
@@ -60,13 +60,10 @@ h1{
 
 }
 .rupees{
-    background-color: black;
+    background-color: rgb(255, 8, 8);
     color: white;
     padding: 5px;
-    border-radius: 4px;
-    width: 50px;
-    font-style:italic;
-    margin-right: -10px;
+    
 }
 .variety{
     font-size: larger;
@@ -104,8 +101,21 @@ font-size: 30px;
     width: auto;
 
 }
-.headingtwo{
+.headingtwoo{
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    text-align: center;
+   text-decoration:double;
 }
+p{
+    font-size: 20px;
+}
+  
+  .star {
+    display: inline-block;
+    color: gold;
+  }
+  button{
+    color:gold;
+    background-color: rgb(230, 38, 38);
+  }
