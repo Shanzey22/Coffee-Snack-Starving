@@ -11,7 +11,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: #f2e4d9;
+   background-color: white;
    
    
 }
@@ -24,7 +24,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: #f2e4d9;
+   background-color: white
 }
 .kac
 {
@@ -34,7 +34,7 @@
 }
 
 body{
-   background-color: #f2e4d9;
+   background-color: rgb(234, 133, 133);
    background-size: cover;
    
 }
@@ -64,7 +64,7 @@ body{
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: #f2e4d9;
+   background-color: white;
 }
 .rr
 {
