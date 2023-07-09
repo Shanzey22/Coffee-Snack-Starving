@@ -28,8 +28,26 @@ body{
     margin-top: 2px;
 }
 .text2{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     color: white;
     margin-top: 1px;
+}
+.text3{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.dash{
+    color: white;
+}
+.text4{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.text5{
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
