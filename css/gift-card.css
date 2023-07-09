@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+    margin: auto;
+    
+}
+.div1{
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+    background-color: #660066;
+    margin-bottom:5px;
+    margin-top: 2px;
+    height: 75px;
+
+}
+.text1{
+    
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 16px;
+}
