@@ -49,3 +49,11 @@ text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    text-align: center;
 }
+.star {
+    display: inline-block;
+    color: gold;
+  }
+  button{
+    color:gold;
+    background-color: rgb(230, 38, 38);
+  }
