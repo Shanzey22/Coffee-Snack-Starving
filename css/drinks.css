@@ -1,5 +1,5 @@
 body{
-    background-color: #e6ccb3
+    background-color: rgb(234,133,133);
 }
 .rowone{
     padding: 20px;
@@ -10,7 +10,8 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 42px;
+    color: black;
+    font-size: 40px;
     font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
 .box{
@@ -21,7 +22,7 @@ text-align: center;
     width: 40px;
 }
 .name{
-    font-size: larger;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .img{
@@ -37,15 +38,15 @@ text-align: center;
     width: 257px;
 }
 .check-out{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 49, 49);
+    color: rgb(0, 0, 0);
 }
 .rupees{
     background-color: rgb(253, 4, 4);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .headingtwo{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    text-align: center;
 }
@@ -56,4 +57,7 @@ text-align: center;
   button{
     color:gold;
     background-color: rgb(230, 38, 38);
+  }
+  p{
+    font-size: 25px;
   }
