@@ -1,90 +1,172 @@
-body{
-    background-color: rgb(234,133,133);
+.sam
+{
+   font-size: 30px;
 }
-.rowone{
-    padding: 20px;
-    text-align:center;
-    display: flex;
-   justify-content: space-between;
-   padding: 10px;
+.container
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: white;
+   
+   
 }
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+.container1
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: white
+}
+.kac
+{
+   height: 200px;
+   width: 360px;
+   border-radius: 25px;
 }
 
-.name{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+   background-color: rgb(234, 133, 133);
+   background-size: cover;
+   
 }
-.img{
- 
-    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 35),
-    0 5px 5px rgba(0,0,0,0.5),
-    0 15px 25px rgba(0,0,0,35);
-    padding: 5px;
-    border-radius: 5px;
-}
-.img:hover{
-    height: 207px;
-    width: 257px;
-}
-.check-out{
-    background-color: rgb(255, 49, 49);
-    color: rgb(0, 0, 0);
-}
-.rupees{
-    background-color: rgb(253, 4, 4);
-    color: rgb(0, 0, 0);
-}
-.headingtwo{
-    font-size: 35px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.h
+{
    text-align: center;
+   color:#060707;
+   background-color: #e4c1a6;
 }
-.star {
-    display: inline-block;
-    color: gold;
-  }
-  button{
-    color:gold;
-    background-color: rgb(230, 38, 38);
-  }
-  p{
-    font-size: 25px;
-  }
-  .z{
-    color:aliceblue;
-  }
-  .z:hover{
-    color:#00ffff;
-  }
-  .box img{
-    height: 50px;
-    background-color:black;
-    width:50px;
-    padding:10px;
-    margin:10px;
-  }
-  
-  .box
-  {
-    background-color:black;
-    width:"1350px";
-    height: 500px;
-    text-align: center;
-    color:white;
-font-size: 30px;
-    margin-top: 100px;
-    margin-bottom:10px;
-    margin-left:0px;
-    margin-right:1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .box p{
-   text-align: center;
-   color:white;
-  }
+.rt 
+{
+   list-style: none;
+   display: flex;
+   
+   margin-left: 5px;
+}
+.rs
+{
+   display: flex;
+}
+.container2
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: white;
+}
+.rr
+{
+   display: flex;
+}
+.container:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
+}
+.container1:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac; 
+   box-shadow: black 10PX 5PX 10PX 5PX; 
+}
+.container2:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: #e6c5ac;  
+   box-shadow: black 10PX 5PX 10PX 5PX;
+}
+.box
+    {
+      background-color: black ;
+      height: 500px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .box img{
+      height: 50px;
+      background-color:transparent;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
+    .T
+    {
+      background-color: #bd977a;
+      border-radius: 10PX 10PX 10PX 10px;
+      font-size: large;
+    }
+    .T:hover
+    {
+      background-color:#daa278;
+      border-radius: 15PX 15PX 15PX 15px;
+      font-size: large;
+    }
+    .rt-1
+    {
+      list-style: none;
+      display: flex;
+      
+      margin-left: 5px;
+    }
+    .rt-2
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    .rt-3
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    .kac:hover
+    {
+       height: 200px;
+       width: 380px;
+   }
+    
