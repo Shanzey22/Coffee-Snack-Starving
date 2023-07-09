@@ -2,13 +2,16 @@ body{
     background-color: #e6ccb3
 }
 .rowone{
-    text-align: ;
+    padding: 20px;
+    text-align:center;
     display: flex;
    justify-content: space-between;
    padding: 10px;
 }
 h1{
     text-align: center;
+    font-size: 42px;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
 .box{
 text-align: center;
@@ -33,3 +36,24 @@ text-align: center;
     height: 207px;
     width: 257px;
 }
+.check-out{
+    background-color: black;
+    color: white;
+}
+.rupees{
+    background-color: rgb(253, 4, 4);
+    color: white;
+}
+.headingtwo{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+.star {
+    display: inline-block;
+    color: gold;
+  }
+  button{
+    color:gold;
+    background-color: rgb(230, 38, 38);
+  }
