@@ -30,6 +30,7 @@
 {
    height: 200px;
    width: 360px;
+   border-radius: 25px;
 }
 
 body{
@@ -40,7 +41,8 @@ body{
 .h
 {
    text-align: center;
-   color:#DDE6ED;
+   color:#060707;
+   background-color: #e4c1a6;
 }
 .rt 
 {
