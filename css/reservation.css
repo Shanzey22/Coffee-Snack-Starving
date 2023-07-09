@@ -57,6 +57,11 @@ font-family: 'Times New Roman', Times, serif;
 }
 input{
     background-color: whitesmoke;
+    height: 25px;
+    font-size: 14pt;
+}
+.suggestion{
+    height: 45px;
 }
 .box
     {

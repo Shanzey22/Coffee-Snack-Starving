@@ -30,18 +30,19 @@
 {
    height: 200px;
    width: 360px;
+   border-radius: 25px;
 }
 
 body{
    background-color: #f2e4d9;
    background-size: cover;
-   background-image:url(./../img/Soup-Cafe.jpg);
+   
 }
 .h
 {
    text-align: center;
-   color:#DDE6ED;
-   backface-visibility: ;
+   color:#060707;
+   background-color: #e4c1a6;
 }
 .rt 
 {
@@ -163,4 +164,9 @@ body{
       display: flex;
       margin-left: 5px;
     }
+    .kac:hover
+    {
+       height: 200px;
+       width: 380px;
+   }
     
