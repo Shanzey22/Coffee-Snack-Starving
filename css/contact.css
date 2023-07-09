@@ -131,28 +131,38 @@ body{
 
 }
 .box
-    {
-      background-color:black;
-      
-      height: 500px;
-      text-align: center;
-      color:white;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-bottom:10px;
-      margin-left:0px;
-      margin-right:1px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-   
-    .box img{
-      height: 50px;
-      background-color:transparent;
-      width:50px;
-      padding:10px;
-      margin:10px;
-    }
+       {
+         background-color:black;
+         width:"1350px";
+         height: 500px;
+         text-align: center;
+         color:white;
+     font-size: 30px;
+         margin-top: 100px;
+         margin-bottom:10px;
+         margin-left:0px;
+         margin-right:1px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+       }
+       .box p{
+        text-align: center;
+        color:white;
+       }
+       .box img{
+         height: 50px;
+         background-color:black;
+         width:50px;
+         padding:10px;
+         margin:10px;
+       }
+  
+.z{
+  color:aliceblue;
+}
+.z:hover{
+  color:#00ffff;
+}
     
 
 
