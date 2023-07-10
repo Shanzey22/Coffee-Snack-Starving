@@ -1,11 +1,11 @@
 p{
     text-align: center;
     font-size: 18px;
-    font-family: Helvetica,sans-serif;
+    font-family:  Helvetica, sans-serif,sans-serif;
 }
 h2{
     font-weight:bold;
-    font-size: 15X;
+    font-size: 30px;
     }      
 h3{
     font-size: 25px;
@@ -13,22 +13,22 @@ h3{
 }
 body{
     text-align: center;
-    background-image: url('https://media.istockphoto.com/id/1384459158/photo/speech-bubble.jpg?b=1&s=612x612&w=0&k=20&c=yWYdMWHmUZYz24FCMgg5IIZ1P249ApQIf_8rE8hLovo=');
+    background-color: rgba(234,210,133,0.856);
      background-size: cover;
  }
 .box{
-    background-image:url('https://media.istockphoto.com/id/1398999646/photo/circular-white-chat-bubbles-sitting-on-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=SJAaL3-ErZjnoOJUUcsLEtzwMhe2i_sp7TR0cOdtwJc=') ;
-    width: 840px;
+    background-image:url('https://images6.alphacoders.com/353/353985.jpg') ;
+    width: 1000px;
     height: auto;
     display: inline-block;
     padding: 15px;
     border-radius: 10px;
     margin-top:none;
-    margin-right: -235px;
+    margin-right: 50px;
     box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.35),
     0 5px 5px rgba(0,0,0,0.5),
     0 15px 25px rgba(0,0,0,0.35);
-    
+    background-size: cover;
 }
 .comment{
     background-color: whitesmoke;
@@ -58,5 +58,3 @@ footer {
     padding: 20px;
     margin-right: -300px;
   }
-  
-  
