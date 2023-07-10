@@ -63,6 +63,7 @@ flex-basis: 50%;
 h1{
 color:#1a1a1a;
 font-size: 100px;
+font-weight: bold;
 }
 .paragraph-text{
 margin-top: 8px;
@@ -72,10 +73,10 @@ line-height: 15px;
 }
 button{
 width: 180px;
-color: white;
+color: black;
 font-size: 12px;
 padding: 12px 0;
-background:#dfbe9f;
+background: white;
 border: 0;
 border-radius: 20px;
 outline: none;
@@ -86,8 +87,8 @@ margin-left: 5px;
 }
 
 button:hover{
-color: black;
-background:#d2a679;
+color: white;
+background: black;
 transition: 0.5s;
 width: 200px;
 }
@@ -255,7 +256,7 @@ padding: 15px;
 background-position: center;
 background-size: cover;
 border-radius: 5px;
-background: #ebd9c6;
+background: white;
 display: inline-block;
 margin-top: 30px;
 transition: 0.5s;
@@ -283,7 +284,7 @@ margin-left: 60px;
 .login-btn{
 height: 40px;
 width: 200px;
-background: #d9b18c;
+background: white;
 color: black;
 margin-top: 30px;
 text-align: center;
@@ -291,7 +292,7 @@ padding: 3px;
 margin-left: 520px;
 }
 .login-btn:hover{
-background: #dfbe9f;
+background: black;
 color: #fff;
 height: 43px;
 width: 230px;
