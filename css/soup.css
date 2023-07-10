@@ -1,5 +1,5 @@
 body {
-    background-color: #f2e4d9;
+    background-color: rgba(234, 210, 133,0.856);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body {
   main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
     padding: 20px;
   }
 
@@ -33,6 +33,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #c3d7e6;
+    
   }
 
   .soup-card img {
@@ -50,25 +51,4 @@ body {
   hr{
     margin-top: 500px;
   }
-  .box
-    {
-      background-color:lightcoral;
-      width: 2200px;
-      height: 500px;
-      text-align: center;
-      color:white;
-      font-size: 30px;
-      margin-top: 100px;
-      margin-bottom:10px;
-      margin-left:0px;
-      margin-right:0px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .box img{
-      height: 50px;
-      background-color:lightcoral;
-      width:50px;
-      padding:10px;
-      margin:10px;
-    }
+ 
