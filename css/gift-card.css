@@ -65,14 +65,22 @@ body{
 }
 .text5{
     color: black;
-    text-align: center;
+    text-align: justify;
     font-size: 25px;
+    margin-left: 500px;
 }
+.text12{
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    text-align: center;
+}
+
 .text6{
     color: black;
     font-size: 30px;
     text-align: center;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .text7{
      color: black;
@@ -90,7 +98,7 @@ body{
 }
 .text9{
     text-align: center;
-    margin-left: 620px;
+    margin-left: 640px;
     color: white;
     background-color: #660066;
     height: 40px;
