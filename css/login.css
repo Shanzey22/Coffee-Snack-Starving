@@ -58,7 +58,7 @@ transition: 1s;
 }
  .box{
      width: 950px;
-     height: 580px;
+     height: 540px;
      display: inline-block;
      border-radius: 10px;
      padding: 15px 25px;
@@ -78,7 +78,7 @@ transition: 1s;
      width: 420px;
      background: burlywood;
      color: white;
-     margin-top: 90px;
+     margin-top: 60px;
      margin-left: 410px;
      padding: 30px;
      border-radius: 10px;
