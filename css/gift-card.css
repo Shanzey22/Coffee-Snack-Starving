@@ -1,8 +1,13 @@
 body{
-    background-color:#f2e4d9;
+    background-color:rgba(234, 210, 133, 0.856);
     margin: auto;
     
 }
+@media only screen and   (max-width:1000px)
+{body{
+    background-color:brown;
+    
+}}
 .div1{
      display: flex;
      margin-left: auto;

@@ -3,6 +3,11 @@
     padding: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
+ @media only screen and   (max-width:1000px)
+{body{
+    background-color:brown;
+    
+}}
  body{
      background-color:  rgba(234,210,133,0.856);
      background-size: cover;

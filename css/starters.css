@@ -1,11 +1,21 @@
+@media only screen and   (max-width:1000px)
+{body{
+    background-color:brown;
+    
+    
+}}
+
+
+
+
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 body{
-    background-color: #f2e4d9;
+    background-color: rgba(234, 210, 133, 0.856);
     background-size: cover;
 }
 h1{

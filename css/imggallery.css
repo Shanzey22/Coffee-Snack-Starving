@@ -1,7 +1,11 @@
 
-  
+@media only screen and   (max-width:1000px)
+{body{
+    background-color:brown;
+    
+}} 
 .q{
-  background-color: rgba(216, 203, 161, 0.856);
+  background-color: rgba(234, 210, 133, 0.856);
 }
 
   

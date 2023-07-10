@@ -17,7 +17,7 @@ body{
      background-size: cover;
  }
 .box{
-    background-image:url('https://images6.alphacoders.com/353/353985.jpg') ;
+    background-image:url("https://images6.alphacoders.com/353/353985.jpg") ;
     width: 1000px;
     height: auto;
     display: inline-block;
