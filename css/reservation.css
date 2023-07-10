@@ -1,22 +1,31 @@
 body{
 
-    background-size: auto ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     background-color: rgba(234, 210, 133, 0.856);
 }
 .wlc
 {
     color: black;
     font-size: xx-large;
-    text-align: center;
-    padding-top: 5%;
+    
+    padding-left: 50px;
 }
 .intro
 {
     color: black;
     font-size: x-large;
-    text-align: center;
+    padding-left: 100px;
+   
+}
+.prio
+{
+    padding-left: 150px;
+}
+.logo
+{
+    height:100px;
+    width :200px;
+    background-color: rgb(255, 235, 205);
 }
 .name
 {
@@ -29,7 +38,8 @@ body{
 
     
     border: solid black 6px;
-    border-radius:  100 px;
+    width: 1000px;
+    border-radius: 20px;
     
 }
 .btn
