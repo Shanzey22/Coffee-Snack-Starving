@@ -23,11 +23,8 @@ display: flex;
 align-items: center;
 }
 .logo{
-width: 50px;
+height: 70px;
 cursor: pointer;
-background-color: #86592d;
-padding: 3px;
-border-radius: 50%;
 }
 nav{
 flex: 1;
