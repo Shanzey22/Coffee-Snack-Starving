@@ -10,7 +10,7 @@ body {
   
   }
   #in{
-    border-radius: 0 15px 0 15px;
+    border-radius: 5px;
     text-decoration:double ;
     padding: 8px;
     border: solid #000000; 
