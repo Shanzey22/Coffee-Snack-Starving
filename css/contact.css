@@ -134,38 +134,52 @@ body{
     box-shadow: 2px 2px 3px 3px black;
 
 }
-.box
-       {
-         background-color:black;
-         width:"1350px";
-         height: 500px;
-         text-align: center;
-         color:white;
-     font-size: 30px;
-         margin-top: 100px;
-         margin-bottom:10px;
-         margin-left:0px;
-         margin-right:1px;
-         padding-top: 10px;
-         padding-bottom: 10px;
-       }
-       .box p{
-        text-align: center;
-        color:white;
-       }
-       .box img{
-         height: 50px;
-         background-color:black;
-         width:50px;
-         padding:10px;
-         margin:10px;
-       }
-  
+.box1{
+        
+    color:black;
+   background-color: rgba(219, 196, 105, 0.856);
+    height: fit-content;
+    width: fit-content;
+    font-size:30px;
+    margin-left: 10px;
+    padding: 10px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-radius: 20px;
+    font-family: 
+  }
+   .box
+   {
+     background-color:black;
+     width:"1350px";
+     height: 500px;
+     text-align: center;
+     color:white;
+ font-size: 30px;
+     margin-top: 100px;
+     margin-bottom:10px;
+     margin-left:0px;
+     margin-right:1px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+   }
+   .box p{
+    text-align: center;
+    color:white;
+   }
+   .box img{
+     height: 50px;
+     background-color:black;
+     width:50px;
+     padding:10px;
+     margin:10px;
+   }
+
 .z{
-  color:aliceblue;
+color:aliceblue;
 }
 .z:hover{
-  color:#00ffff;
+color:#00ffff;
 }
     
 
