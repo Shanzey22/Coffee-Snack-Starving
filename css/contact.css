@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(234, 133, 133);
+    background-color: #f2e4d9;
     margin:0%;
 }
 .style2{
@@ -11,7 +11,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px 10px #00ffff;
+    box-shadow: 3px 3px 5px 10px black;
 
 }
 .text11{
@@ -131,7 +131,7 @@ body{
     
     border-radius: 5px;
     margin-top: 5px;
-    box-shadow: 2px 2px 3px 3px white;
+    box-shadow: 2px 2px 3px 3px black;
 
 }
 .box
