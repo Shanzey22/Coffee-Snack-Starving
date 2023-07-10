@@ -1,33 +1,35 @@
 body{
-    background-image: url("https://c.pxhere.com/photos/e3/1b/chair_interior_table_cafe_coffee_shop-1391899.jpg!d") ;
+
     background-size: auto ;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-color: rgba(234, 210, 133, 0.856);
 }
 .wlc
 {
-    color: white;
+    color: black;
     font-size: xx-large;
     text-align: center;
     padding-top: 5%;
 }
 .intro
 {
-    color: white;
+    color: black;
     font-size: x-large;
     text-align: center;
 }
 .name
 {
-    color: white;
+    color: black;
     font-size: x-large;
-    padding-left: 420px ;
+    padding-left: 50px ;
 }
 .container
 {
 
-    border-radius: 100px;
+    
+    border: solid black 6px;
+    border-radius:  100 px;
     
 }
 .btn
@@ -59,6 +61,7 @@ input{
     background-color: whitesmoke;
     height: 25px;
     font-size: 14pt;
+    text-align-last: center;
 }
 .suggestion{
     height: 45px;
