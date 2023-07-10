@@ -32,22 +32,6 @@ flex: 1;
 text-align: right;
 transition: 0.5s;
 }
-.icon-setting{
- height: 22px;
- margin-left: 40px;
- cursor: pointer;
-} 
-.icon-setting:hover{
- height: 18px;
-} 
-.shopping-cart{
-height: 35px;
-margin-left: 20px;
-cursor: pointer;
-} 
-.shopping-cart:hover{
-height: 30px;
-}
 nav ul li{
 list-style: none;
 display: inline-block;
