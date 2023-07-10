@@ -7,8 +7,9 @@ body{
 {
     color: black;
     font-size: xx-large;
-    
+    padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 10px;
 }
 .intro
 {
