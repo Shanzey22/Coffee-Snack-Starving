@@ -7,7 +7,7 @@
 {
   height: 100vh;
   width: 100%;
- background-color: rgb(234,133,133);
+  background-color: rgba(234,210,133,0.856);
   padding-left: 8%;
   padding-right: 8%;
   box-sizing:border-box;
@@ -17,11 +17,11 @@
 height: 12%;
 display: flex;
 align-items: center;
-background-color: rgb(135, 181, 222);
+background-color: black;
 border-style: groove;
-border-color:rgb(234,133,133);
-color: #000;
-width:1400px;
+border-color: none;
+color: #fff;
+width:1200px;
 }
 .logo{
 height: 70px;
