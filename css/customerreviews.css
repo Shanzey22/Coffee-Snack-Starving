@@ -1,5 +1,5 @@
 .a{
-  background-color:rgb(234, 133, 133);
+  background-color:rgba(216, 203, 161, 0.856);
  
 
 
@@ -7,6 +7,8 @@
   }
   .b{
     text-align:center;
+   
+
     font-size: 40px;
     color: rgb(20, 20, 20);
     margin-left: 10px;
@@ -19,17 +21,19 @@
     font-size: 40px;
     color: rgb(27, 26, 26);
     margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
   }
   p{
     text-align:left;
     font-size: 30px;
     color: black;
     margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
   }
       .box1{
         
         color:black;
-       background-color: rgb(234, 186, 186);
+       background-color: rgba(219, 196, 105, 0.856);
         height: fit-content;
         width: fit-content;
         font-size:30px;
@@ -38,7 +42,8 @@
         border-color: antiquewhite;
         border-style: double;
         border-radius: 20px;
-       }
+        font-family: 
+      }
        .box
        {
          background-color:black;

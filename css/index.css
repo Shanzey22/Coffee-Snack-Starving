@@ -1,31 +1,32 @@
 *{
   margin: 0%;
   padding: 0%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-/*linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)),url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');*/
 .container
 {
   height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
-  background-position: center;
+ background-color: rgb(234,133,133);
   padding-left: 8%;
   padding-right: 8%;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }  
 .navbar
 {
 height: 12%;
 display: flex;
 align-items: center;
+background-color: rgb(135, 181, 222);
+border-style: groove;
+border-color:rgb(234,133,133);
+color: #000;
+width:1400px;
 }
 .logo{
 width: 50px;
 cursor: pointer;
-background-color: #86592d;
+background-color:rgb(234,133,133);
 padding: 3px;
 border-radius: 50%;
 }
@@ -89,12 +90,12 @@ align-items: center;
 flex-basis: 50%;
 }
 h1{
-color:#734d26;
+color:#1a1a1a;
 font-size: 100px;
 }
 .paragraph-text{
 margin-top: 8px;
-color: #bf8040;
+color: #f6f4f1;
 font-size: 20px;
 line-height: 15px;
 }
