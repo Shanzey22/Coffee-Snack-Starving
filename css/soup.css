@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url(./../img/Soup.jpg);
+    background-image:url();
   }
 
   header {
@@ -36,16 +36,19 @@ body {
   }
 
   .soup-card img {
-    max-width: 70%;
-  }
+    height: 200px;
+    width: 200px;
 
   .soup-card h2 {
     color: #333;
-    margin-top: 0;
+    
   }
 
   .soup-card p {
     color: #3e3a3a;
+  }
+  hr{
+    margin-top: 500px;
   }
   .box
     {
@@ -54,11 +57,11 @@ body {
       height: 500px;
       text-align: center;
       color:white;
-  font-size: 30px;
+      font-size: 30px;
       margin-top: 100px;
       margin-bottom:10px;
       margin-left:0px;
-      margin-right:1px;
+      margin-right:0px;
       padding-top: 10px;
       padding-bottom: 10px;
     }
