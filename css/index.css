@@ -7,7 +7,7 @@
 {
   height: 100vh;
   width: 100%;
- background-color: rgb(234,133,133);
+  background-color: rgba(234,210,133,0.856);
   padding-left: 8%;
   padding-right: 8%;
   box-sizing:border-box;
@@ -17,63 +17,34 @@
 height: 12%;
 display: flex;
 align-items: center;
-background-color: rgb(135, 181, 222);
+background-color: black;
 border-style: groove;
-border-color:rgb(234,133,133);
-color: #000;
-width:1400px;
+border-color: none;
+color: #fff;
+width:1300px;
+padding: 10px;
 }
 .logo{
-width: 50px;
+height: 70px;
 cursor: pointer;
-background-color:rgb(234,133,133);
-padding: 3px;
-border-radius: 50%;
-}
-.search-bar{
-background:white;
-width: 200px;
-height: 20px;
-cursor: pointer;
-margin-left: 30px;
-border-radius: 20px;
-display: flex;
-text-align: center;
-padding: 5px;
-color: #000;
 }
 nav{
 flex: 1;
 text-align: right;
 transition: 0.5s;
 }
-.icon-setting{
- height: 22px;
- margin-left: 40px;
- cursor: pointer;
-} 
-.icon-setting:hover{
- height: 18px;
-} 
-.shopping-cart{
-height: 35px;
-margin-left: 20px;
-cursor: pointer;
-} 
-.shopping-cart:hover{
-height: 30px;
-}
 nav ul li{
 list-style: none;
 display: inline-block;
 margin-left: 60px;
-color: black;
 cursor: pointer;
 transition: 1s;
+background-color: #000;
+padding: 10px;
 }
 nav ul li a{
 text-decoration: none;
-color: black;
+color: white;
 font-size: 18px;
 cursor: pointer;
 }
@@ -92,6 +63,7 @@ flex-basis: 50%;
 h1{
 color:#1a1a1a;
 font-size: 100px;
+font-weight: bold;
 }
 .paragraph-text{
 margin-top: 8px;
@@ -101,10 +73,10 @@ line-height: 15px;
 }
 button{
 width: 180px;
-color: white;
+color: black;
 font-size: 12px;
 padding: 12px 0;
-background:#dfbe9f;
+background: white;
 border: 0;
 border-radius: 20px;
 outline: none;
@@ -115,8 +87,8 @@ margin-left: 5px;
 }
 
 button:hover{
-color: black;
-background:#d2a679;
+color: white;
+background: black;
 transition: 0.5s;
 width: 200px;
 }
@@ -124,8 +96,8 @@ width: 200px;
 color:#000;
 }
 .card{
-width: 250px;
-height: 270px;
+width: 260px;
+height: 280px;
 display: inline-block;
 border-radius: 10px;
 padding: 15px 25px;
@@ -149,7 +121,7 @@ background-image: url('https://wallpapercave.com/wp/wp1842834.jpg');
 }
 .card3
 {
-background-image: url('https://static.toiimg.com/photo/53683545.cms');
+background-image: url('https://i.pinimg.com/originals/10/d6/c1/10d6c132171427b1e52fc1db5f1d73b1.jpg');
 }
 .card4
 {
@@ -163,7 +135,7 @@ transform: translateY(-10px);
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
+  background-color: rgba(234,210,133,0.856);
   background-position: center;
   padding-left: 8%;
   padding-right: 8%;
@@ -194,7 +166,7 @@ transform: translateY(-10px);
 .head{
   font-size: 60px;
   text-align: center;
-  color: #d2a679;
+  color: black;
 }
 .des-cription
 {
@@ -236,13 +208,14 @@ height: 30px;
   text-align: center;
   cursor: pointer;
   transition: 0.5s;
-  background:#d9b18c;
+  background:white;
   margin-left: 150px;
   margin-top: 10px;
+  color: #000;
 }
 .button-chat:hover{
-  color: black;
-  background: #d2a679;
+  color: white;
+  background: black;
   transition: 0.5s;
   height: 40px;
   width: 230px;
@@ -251,7 +224,7 @@ height: 30px;
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: url('https://cutewallpaper.org/28/coffee-on-table-background-wallpaper/1589220615.jpg');
+  background-color: rgba(234,210,133,0.856);
   background-position: center;
   padding-left: 8%;
   padding-right: 8%;
@@ -261,14 +234,14 @@ height: 30px;
   padding-top: 40px;
   font-size: 66px;
   text-align: center;
-  color: #734d26;
+  color: black;
   margin-bottom: 60px;
   font-weight: bold;
 }
 .reviews{
   font-size: 50px;
   font-weight: bold;
-  color:#d2a679;
+  color:white;
   text-align: center;
   padding: 5px;
 }
@@ -283,7 +256,7 @@ padding: 15px;
 background-position: center;
 background-size: cover;
 border-radius: 5px;
-background: #ebd9c6;
+background: white;
 display: inline-block;
 margin-top: 30px;
 transition: 0.5s;
@@ -295,7 +268,7 @@ transition: 0.5s;
 h4{
 font-size: 30px;
 font-weight: bold;
-color: #734d26;
+color: black;
 text-align: center;
 }
 .feedback{
@@ -311,7 +284,7 @@ margin-left: 60px;
 .login-btn{
 height: 40px;
 width: 200px;
-background: #d9b18c;
+background: white;
 color: black;
 margin-top: 30px;
 text-align: center;
@@ -319,7 +292,7 @@ padding: 3px;
 margin-left: 520px;
 }
 .login-btn:hover{
-background: #dfbe9f;
+background: black;
 color: #fff;
 height: 43px;
 width: 230px;
@@ -346,6 +319,3 @@ width:50px;
 padding:10px;
 margin:10px;
 }
-
-
-
