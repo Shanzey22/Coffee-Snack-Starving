@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(234,133,133);
+    background-color:#f2e4d9;
     margin: auto;
     
 }
@@ -20,23 +20,42 @@ body{
     font-size: 30px;
     margin-left: 500px;
     margin-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .img1{
     height:100px;
     width: 140px;
-    margin-left: 700px;
-    margin-top: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #660066;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 .text2{
     font-size: 30px;
     text-align: center;
     color: black;
     margin-top: 1px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
 }
 .text3{
     text-align: center;
     font-size: 50px;
     color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img2{
+    height: 150px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #660066;
+    border-radius: 7px;
+    box-shadow: 2px 2px  2px 2px black;
 }
 .dash{
     color: black;
@@ -48,14 +67,22 @@ body{
 }
 .text5{
     color: black;
-    text-align: center;
+    text-align: justify;
     font-size: 25px;
+    margin-left: 500px;
 }
+.text12{
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    text-align: center;
+}
+
 .text6{
     color: black;
     font-size: 30px;
     text-align: center;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .text7{
      color: black;
@@ -68,11 +95,12 @@ body{
     height: 25px;
     margin-top: 2px;
     width: 190px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .text9{
     text-align: center;
-    margin-left: 620px;
+    margin-left: 640px;
     color: white;
     background-color: #660066;
     height: 40px;
