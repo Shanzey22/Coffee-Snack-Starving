@@ -5,25 +5,21 @@ body {
     padding: 0;
     background-image:url();
   }
-
   header {
     background-color: #435b66;
     padding: 20px;
     text-align: center;
   }
-
   h1 {
     margin: 0;
     color:#DDE6ED;
   }
-
   main {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
     padding: 20px;
   }
-
   .soup-card {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -32,23 +28,50 @@ body {
     max-width: 300px;
     padding: 20px;
     text-align: center;
-    background-color: #c3d7e6;
-    
+    background-color: #c3d7e6; 
+  }
+  .soup-card:hover
+  {
+    border: 1px black solid;
+   width: 400px;
+   cursor: pointer;
+   background-color: #d2bdad; 
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
   .soup-card img {
     height: 200px;
     width: 200px;
-
+  }
   .soup-card h2 {
     color: #333;
-    
   }
-
   .soup-card p {
     color: #3e3a3a;
   }
   hr{
-    margin-top: 500px;
+    margin-top: 70px;
+    margin-bottom: 10px;
   }
- 
+  .box
+  {
+  background-color: black;
+  height: 400px;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right:1px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  }
+  .box img
+  {
+  height: 50px;
+  background-color:rgb(43, 121, 26);
+  width:50px;
+  padding:10px;
+  margin:10px;
+  }
