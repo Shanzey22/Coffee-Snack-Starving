@@ -65,7 +65,7 @@ input{
 }
 .box
     {
-      background-color: transparent;
+      background-color: black;
       height: 500px;
       text-align: center;
       color:white;

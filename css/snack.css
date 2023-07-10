@@ -11,7 +11,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: white;
+   background-color: rgba(216, 203, 161, 0.856);
    
    
 }
@@ -24,7 +24,7 @@
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: white
+   background-color: rgba(216, 203, 161, 0.856);
 }
 .kac
 {
@@ -34,7 +34,7 @@
 }
 
 body{
-   background-color: rgb(234, 133, 133);
+   background-color: rgba(234, 210, 133, 0.856);
    background-size: cover;
    
 }
@@ -64,7 +64,7 @@ body{
    margin-top: 50px;
    padding-bottom: 20px;
    border-radius: 40PX;
-   background-color: white;
+   background-color: rgba(216, 203, 161, 0.856);
 }
 .rr
 {
@@ -81,7 +81,7 @@ body{
    border-radius: 50PX;
    padding-right: 20px;
    cursor: pointer;
-   background-color: #e6c5ac;  
+   background-color: rgba(247, 214, 108, 0.904); 
    box-shadow: black 10PX 5PX 10PX 5PX;
 }
 .container1:hover
@@ -95,7 +95,7 @@ body{
    border-radius: 50PX;
    padding-right: 20px;
    cursor: pointer;
-   background-color: #e6c5ac; 
+   background-color: rgba(247, 214, 108, 0.904); 
    box-shadow: black 10PX 5PX 10PX 5PX; 
 }
 .container2:hover
@@ -109,7 +109,7 @@ body{
    border-radius: 50PX;
    padding-right: 20px;
    cursor: pointer;
-   background-color: #e6c5ac;  
+   background-color: rgba(247, 214, 108, 0.904);  
    box-shadow: black 10PX 5PX 10PX 5PX;
 }
 .box
