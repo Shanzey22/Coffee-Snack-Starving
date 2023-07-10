@@ -1,177 +1,172 @@
+.sam
+{
+   font-size: 30px;
+}
+.container
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: rgba(216, 203, 161, 0.856);
+   
+   
+}
+.container1
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: rgba(216, 203, 161, 0.856);
+}
+.kac
+{
+   height: 200px;
+   width: 360px;
+   border-radius: 25px;
+}
+
 body{
-    background-color:#f2e4d9;
-    margin: 0%;
+   background-color: rgba(234, 210, 133, 0.856);
+   background-size: cover;
+   
 }
-.text1{color: black;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 2px;
-  font-size: 50px;
-  margin-bottom: auto;
+.h
+{
+   text-align: center;
+   color:#060707;
+   background-color: #e4c1a6;
 }
-.text2{
-  font-size: 30px;
-  color: black;
-  margin-top: 2px;
-  font-family:italic;
-  text-align: center;
-  margin-bottom: auto;
+.rt 
+{
+   list-style: none;
+   display: flex;
+   
+   margin-left: 5px;
 }
-.text3{
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  margin-top: 2px;
-  font-family: fantasy;
+.rs
+{
+   display: flex;
 }
-.text4{
-  text-decoration:black;
-  text-align: left;
-  margin-top: 25px;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 25px;
-  color:black;
-  margin-bottom: auto;
-  
+.container2
+{
+   border: 3px black solid;
+   width: 380px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-radius: 40PX;
+   background-color: rgba(216, 203, 161, 0.856);
 }
-.img1{
-  height: 60px;
-  width: 60px;
-  margin-left: 22px;
-  margin-top: 2px;
+.rr
+{
+   display: flex;
 }
-.div1{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 420px;
-  width: auto;
-  color: black;
-  margin-top: 30px;
+.container:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: rgba(247, 214, 108, 0.904); 
+   box-shadow: black 10PX 5PX 10PX 5PX;
 }
-
-
-
-.flex1{
-  height: 385px;
-  width: 340px;
-  
-  border-radius: 2px 5px 2px 5px;
-  box-shadow: 4px 8px 5px 5px black;
+.container1:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: rgba(247, 214, 108, 0.904); 
+   box-shadow: black 10PX 5PX 10PX 5PX; 
 }
-.flex1:hover{
-  background-color:#00ff99;
-  border-radius: 1px 1px 3px 3px ;
-  box-shadow: 2px 2px 3px 3px black;
-}
-.text5{
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
-  color: black;
-  margin-top: 5px;
-}
-.text6{
-  color: black;
-  font-size: 25px;
-  font-family: italic;
-  text-align: start;
-  margin-top: 1px;
-  margin-left: 7px;
-}
-.btn{
-
-  height: 30px;
-  width: 120px;
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  border-radius: 7px;
-  margin-bottom: 3px;
-}
-
-
-.text7{
-  color:black;
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-left: 7px;
-  margin-bottom:  5px;
-  
-
-}
-.img2{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 127px;
-  width: 335px;
-  margin-top: 5px;
-
-  margin-bottom: 7px;
-}
-.text8{
-  font-size: 25px;
-  font-family: italic;
-  margin-top: 2px;
-  color: black;
-  margin-left: 7px;
-  margin-bottom: 2px;
-}
-.text10{
-  font-size: 25px;
-  height: 30px;
-  width:140px;
-  padding: 4px;
-  background-color: #ffff66;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3px;
-  margin-top: 2px;
-  padding: 2px;
-  box-shadow: 3px 2px 3px 3px yellowgreen;
-  border-radius: 5px;
-}
-.text10:hover{
-
-  box-shadow:  1px 2px 2px black;
-  color: aliceblue;
-  background-color: black;
-  border-radius: 1px;
-
+.container2:hover
+{
+   border: 4px black solid;
+   width: 400px;
+   padding-left: 20px;
+   margin-right: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+   border-radius: 50PX;
+   padding-right: 20px;
+   cursor: pointer;
+   background-color: rgba(247, 214, 108, 0.904);  
+   box-shadow: black 10PX 5PX 10PX 5PX;
 }
 .box
-       {
-         background-color:black;
-         width:"1350px";
-         height: 500px;
-         text-align: center;
-         color:white;
-     font-size: 30px;
-         margin-top: 100px;
-         margin-bottom:10px;
-         margin-left:0px;
-         margin-right:1px;
-         padding-top: 10px;
-         padding-bottom: 10px;
-       }
-       .box p{
-        text-align: center;
-        color:white;
-       }
-       .box img{
-         height: 50px;
-         background-color:black;
-         width:50px;
-         padding:10px;
-         margin:10px;
-       }
-  
-.z{
-  color:aliceblue;
-}
-.z:hover{
-  color:#00ffff;
-}
+    {
+      background-color: black ;
+      height: 500px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      margin-top: 100px;
+      margin-bottom:10px;
+      margin-left:0px;
+      margin-right:1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .box img{
+      height: 50px;
+      background-color:transparent;
+      width:50px;
+      padding:10px;
+      margin:10px;
+    }
+    .T
+    {
+      background-color: #bd977a;
+      border-radius: 10PX 10PX 10PX 10px;
+      font-size: large;
+    }
+    .T:hover
+    {
+      background-color:#daa278;
+      border-radius: 15PX 15PX 15PX 15px;
+      font-size: large;
+    }
+    .rt-1
+    {
+      list-style: none;
+      display: flex;
+      
+      margin-left: 5px;
+    }
+    .rt-2
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    .rt-3
+    {
+      list-style: none;
+      display: flex;
+      margin-left: 5px;
+    }
+    .kac:hover
+    {
+       height: 200px;
+       width: 380px;
+   }
+    
