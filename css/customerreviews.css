@@ -1,5 +1,5 @@
 .a{
-  background-color:rgb(234, 133, 133);
+  background-color:rgba(216, 203, 161, 0.856);
  
 
 
@@ -33,7 +33,7 @@
       .box1{
         
         color:black;
-       background-color: rgb(234, 186, 186);
+       background-color: rgba(219, 196, 105, 0.856);
         height: fit-content;
         width: fit-content;
         font-size:30px;
