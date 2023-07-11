@@ -1,7 +1,9 @@
 
-@media only screen and   (max-width:1000px)
+@media only screen and   (max-width:500px)
 {body{
     background-color:brown;
+    font-size: smaller;
+    width: fit-content;
     
 }} 
 .q{

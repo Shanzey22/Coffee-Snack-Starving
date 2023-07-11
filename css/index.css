@@ -6,30 +6,10 @@
 
 
 
-/* For Tablet View */
-@media screen and (min-device-width: 768px)
-  and (max-device-width: 1024px) and (orientation:lanscape){
-  body  .container .navbar .logo .paragraph-text{
-      width: 2%;
-      height: 200px;
-      background-color: orange;
-      color: black;
-  }
-}
 
-/* For Mobile Portrait View */
-@media screen and (min-device-width: 100px)
-  and (orientation: portrait) {
-  body  .container .navbar .logo .paragraph-text{
-      width: 200px;
-      height: 200px;
-      background-color: red;
-      color: #fff;
-  }
-}
 
 body{
-    background-color:brown;
+    background-color:rgba(234,210,133,0.856);
     
 }
 
